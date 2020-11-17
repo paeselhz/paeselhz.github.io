@@ -1,0 +1,65 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+# your designation
+designation: Data Scientist/MLOps
+# your company information
+company:
+  name: Sicredi Credit Cooperative Institution
+  url: "https://www.sicredi.com.br"
+
+# your resume. this file path should be relative to you "static" directory
+resume: "files/resume.pdf"
+
+# a summary about you
+summary: 'I am an ML Engineer that started as a Data Scientist, I enjoy developing pipelines and tools that allow data scientists to automate their
+ workflows, as well as add robustness to their deployments. The tools I have developed allow people to integrate multiple programming languages (such as R and Python)
+ adding intelligence to products through Machine Learning.'
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/paeselhz"
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://www.linkedin.com/in/lhzpaese"
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/paeselhz"
+- name: Medium
+  icon: "fab fa-medium"
+  url: "https://medium.com/@lhzpaese"
+- name: Email
+  icon: "fas fa-envelope"
+  url: "lhzpaese@gmail.com"
+
+# your soft skills
+# give the percentage between 50 to 100 with 5 intervals.
+# currently supported colors: blue, yellow, pink, green, sky, orange
+softSkills:
+- name: Communication
+  percentage: 85
+  color: orange
+- name: Team Work
+  percentage: 90
+  color: yellow
+- name: R
+  percentage: 90
+  color: sky
+- name: Python
+  color: green
+  percentage: 75
+- name: Docker
+  color: blue
+  percentage: 80
+- name: Terraform
+  color: pink
+  percentage: 65
