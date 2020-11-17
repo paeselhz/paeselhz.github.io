@@ -24,7 +24,7 @@ enableEmoji: true
 # Site parameters
 params:
 
-  # Backgroung Image of your site
+  # Background Image of your site
 #  background: "images/poa_skyline.jpg"
   background: "images/toronto_skyline.jpeg"
 
