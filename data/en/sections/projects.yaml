@@ -143,3 +143,27 @@ projects:
   repo: "https://github.com/paeselhz/heRe"
   summary: "R package to help users to deal with Here Location Services REST API"
   tags: ["professional", "hobby"]
+
+- name: "Docker applications using R"
+  logo: "/images/sections/projects/presentation.png"
+  role: Presenter
+  timeline: "July 2019"
+  url: "https://paeselhz.github.io/docker_presentation"
+  summary: "Slides presentation about the integration of the R Programming Language with the Docker environment and it's advantages - In Portuguese"
+  tags: ["professional", "hobby"]
+
+- name: "Github Actions and Data Science"
+  logo: "/images/sections/projects/presentation.png"
+  role: Presenter
+  timeline: "September 2020"
+  url: "https://paeselhz.github.io/ghActionsDockerShiny"
+  summary: "Slides presentation regarding the use of Github Actions in Data Science projects - In Portuguese"
+  tags: ["professional", "hobby"]
+
+- name: "Shiny Application using Brazilian 2020 Electoral data"
+  logo: "/images/sections/projects/shiny.png"
+  role: Developer
+  timeline: "November 2020"
+  repo: "https://paeselhz.github.io/ghActionsDockerShiny"
+  summary: "Shiny application with Brazilian 2020 electoral data, specifically about the city of Porto Alegre, RS, Brazil - In Portuguese"
+  tags: ["hobby"]
