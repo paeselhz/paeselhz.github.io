@@ -164,6 +164,6 @@ projects:
   logo: "/images/sections/projects/shiny.png"
   role: Developer
   timeline: "November 2020"
-  repo: "https://paeselhz.github.io/ghActionsDockerShiny"
+  repo: "https://github.com/paeselhz/analise_eleicoes_poa_2020"
   summary: "Shiny application with Brazilian 2020 electoral data, specifically about the city of Porto Alegre, RS, Brazil - In Portuguese"
   tags: ["hobby"]
