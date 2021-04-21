@@ -167,3 +167,36 @@ projects:
   repo: "https://github.com/paeselhz/analise_eleicoes_poa_2020"
   summary: "Shiny application with Brazilian 2020 electoral data, specifically about the city of Porto Alegre, RS, Brazil - In Portuguese"
   tags: ["hobby"]
+
+- name: "Shiny Apps integrated with Github Actions"
+  logo: "/images/sections/projects/github.png"
+  role: Developer
+  timeline: "February 2021"
+  repo: "https://github.com/paeselhz/shiny_gcr_tf"
+  summary: "Repository containing the deployment of a Shiny App using Github Actions, and also using Terraform to deploy this image to Google Cloud Run"
+  tags: ["professional", "hobby"]
+
+- name: "Shiny Application simulating returns of investments in certain circumstances"
+  logo: "/images/sections/projects/shiny.png"
+  role: Developer
+  timeline: "February 2021"
+  repo: "https://github.com/paeselhz/analise_eleicoes_poa_2020"
+  summary: "Shiny application with Brazilian stock data, analyzing the impacts of investments when stock values drop by more than 10% - In Portuguese"
+  tags: ["hobby"]
+
+- name: "Data Science Meets Infrastructure as Code"
+  logo: "/images/sections/projects/medium-logo.jpg"
+  role: Author
+  timeline: "March 2021"
+  url: "https://towardsdatascience.com/data-science-meets-infrastructure-as-code-d2f62328646c"
+  summary: "Leveraging Infrastructure as Code to deploy Data Science environments in a easier and more scalable way"
+  tags: ["medium", "professional"]
+
+- name: "RStudio Server in AWS EMR easy, reproducible, and fast"
+  logo: "/images/sections/projects/medium-logo.jpg"
+  role: Author
+  timeline: "March 2021"
+  url: "https://towardsdatascience.com/rstudio-server-in-aws-emr-easy-reproducible-and-fast-f066aa6135d"
+  summary: "Using Amazon Web Services custom Machine Images to deploy EMR clusters with pre-installed and pre-configured tools"
+  tags: ["medium", "professional"]
+
