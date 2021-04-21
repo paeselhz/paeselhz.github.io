@@ -14,7 +14,7 @@ company:
   name: Sicredi Credit Cooperative Institution
   url: "https://www.sicredi.com.br"
 
-# your resume. this file path should be relative to you "static" directory
+# your resume. this file path should be relative to you "assets" directory
 resume: "files/resume.pdf"
 
 # a summary about you
