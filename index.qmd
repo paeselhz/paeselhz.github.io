@@ -1,0 +1,17 @@
+---
+listing: 
+  type: default
+  id: posts-front-page
+  contents: [posts/teste1/index.qmd, posts/teste2/index.qmd]
+  fields: [date, title, subtitle, author, reading-time]
+  page-size: 3
+  categories: cloud
+page-layout: full
+---
+
+::: {#posts-front-page}
+:::
+
+<a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all posts</button></a>
+
+<br>
