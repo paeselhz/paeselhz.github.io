@@ -20,13 +20,13 @@ website:
     pinned: false
     background: "#808080"
     right:
-      - href: about.qmd
+      - href: navbar/about.qmd
         text: About Me
       - href: posts/index.qmd
         text: Blog
-      - href: research.qmd
+      - href: navbar/research.qmd
         text: Research
-      - href: about.qmd
+      - href: navbar/about.qmd
         text: CV
       - icon: github
         aria-label: GitHub
@@ -44,7 +44,7 @@ format:
     theme: flatly
     css: styles.css
     toc: true
-    include-in-header: header.html
+    include-in-header: navbar/header.html
     link-external-newwindow: true
     link-external-filter: '^(?:http:|https:)\/\/paeselhz\.github\.io\/**'
     code-link: true
