@@ -1,0 +1,18 @@
+---
+title: "Using RStudio Project Templates to help the project standardization in data science teams"
+subtitle: "Improving team collaboration and project standardization in data science"
+author: "Luis HZ Paese"
+categories:
+  - RStudio
+  - Project Templates
+  - Data Science
+  - Programming
+  - R
+date: 2020-04-29
+code-copy: true
+toc: true
+---
+
+Many works in the data science realm rely solely upon the data scientist/analyst to guarantee the project standardization and code reproducibility; unfortunately, this becomes a source of confusion/disorganization since everybody (even on the same team) have different work strategies. To help ensure that teams share the same project standards, RStudio offers a sort of cookiecutter, where you can develop (in form of packages) many templates to be shared amongst users on the same team.
+
+

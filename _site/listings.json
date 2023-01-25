@@ -2,15 +2,16 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/teste1/index.html",
-      "/posts/teste2/index.html"
+      "/posts/ds-iac/index.html",
+      "/posts/gh-actions-data-science/index.html",
+      "/posts/rstudio-project-templates/index.html"
     ]
   },
   {
     "listing": "/posts/index.html",
     "items": [
-      "/posts/teste1/index.html",
-      "/posts/teste2/index.html"
+      "/posts/gh-actions-data-science/index.html",
+      "/posts/rstudio-project-templates/index.html"
     ]
   }
 ]

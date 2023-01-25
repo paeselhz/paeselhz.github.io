@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Luis HZ Paese">
+<meta name="dcterms.date" content="2020-04-29">
 
-<title>Luis Paese</title>
+<title>Luis Paese - Using RStudio Project Templates to help the project standardization in data science teams</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,26 +25,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -62,35 +62,6 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts-front-page .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts-front-page'] = new List('listing-posts-front-page', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6QP6SPK8HL"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -133,9 +104,8 @@ cookieconsent.run({
   </div>
 </header>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../../styles.css">
 
 
 
@@ -145,7 +115,7 @@ cookieconsent.run({
     <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Luis Paese</span>
     </a>
   </div>
@@ -155,19 +125,19 @@ cookieconsent.run({
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="../../about.html">
  <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./posts/index.html">
+    <a class="nav-link" href="../../posts/index.html">
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html">
+    <a class="nav-link" href="../../research.html">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html">
+    <a class="nav-link" href="../../about.html">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
@@ -192,102 +162,53 @@ cookieconsent.run({
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
     </div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Using RStudio Project Templates to help the project standardization in data science teams</h1>
+<p class="subtitle lead">Improving team collaboration and project standardization in data science</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">RStudio</div>
+    <div class="quarto-category">Project Templates</div>
+    <div class="quarto-category">Data Science</div>
+    <div class="quarto-category">Programming</div>
+    <div class="quarto-category">R</div>
+  </div>
+  </div>
 
 
 
-<div id="listing-posts-front-page" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Data Science,Infrastructure as Code,RStudio,Jupyterhub,Hashicord" data-listing-date-sort="1615953600000" data-listing-file-modified-sort="1674614912422" data-listing-reading-time-sort="0.375">
-<div class="body">
-<a href="./posts/ds-iac/index.html">
-<h3 class="no-anchor listing-title">
-Data Science meets Infrastructure as Code
-</h3>
-<div class="listing-subtitle">
+<div class="quarto-title-meta">
 
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/ds-iac/index.html">
-<div class="listing-date">
-Mar 17, 2021
-</div>
-<div class="listing-author">
-Luis HZ Paese
-</div>
-<div class="listing-reading-time">
-0 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Github Actions,Docker,Data Science,Github" data-listing-date-sort="1601265600000" data-listing-file-modified-sort="1674614661644" data-listing-reading-time-sort="11.26">
-<div class="body">
-<a href="./posts/gh-actions-data-science/index.html">
-<h3 class="no-anchor listing-title">
-Using GitHub Actions to speed up CI/CD in data science projects
-</h3>
-<div class="listing-subtitle">
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Luis HZ Paese </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">April 29, 2020</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
 
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/gh-actions-data-science/index.html">
-<div class="listing-date">
-Sep 28, 2020
-</div>
-<div class="listing-author">
-Luis HZ Paese
-</div>
-<div class="listing-reading-time">
-11 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="RStudio,Project Templates,Data Science,Programming,R" data-listing-date-sort="1588132800000" data-listing-file-modified-sort="1674614666538" data-listing-reading-time-sort="0.37">
-<div class="body">
-<a href="./posts/rstudio-project-templates/index.html">
-<h3 class="no-anchor listing-title">
-Using RStudio Project Templates to help the project standardization in data science teams
-</h3>
-<div class="listing-subtitle">
-Improving team collaboration and project standardization in data science
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/rstudio-project-templates/index.html">
-<div class="listing-date">
-Apr 29, 2020
-</div>
-<div class="listing-author">
-Luis HZ Paese
-</div>
-<div class="listing-reading-time">
-0 min
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all posts</button></a></p>
-<p><br></p>
+</header>
 
+<p>Many works in the data science realm rely solely upon the data scientist/analyst to guarantee the project standardization and code reproducibility; unfortunately, this becomes a source of confusion/disorganization since everybody (even on the same team) have different work strategies. To help ensure that teams share the same project standards, RStudio offers a sort of cookiecutter, where you can develop (in form of packages) many templates to be shared amongst users on the same team.</p>
 
 
 
@@ -470,5 +391,5 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

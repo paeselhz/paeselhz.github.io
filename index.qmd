@@ -2,10 +2,11 @@
 listing: 
   type: default
   id: posts-front-page
-  contents: [posts/teste1/index.qmd, posts/teste2/index.qmd]
+  contents: [posts/gh-actions-data-science/index.qmd, 
+             posts/rstudio-project-templates/index.qmd,
+             posts/ds-iac/index.qmd]
   fields: [date, title, subtitle, author, reading-time]
   page-size: 3
-  categories: cloud
 page-layout: full
 ---
 

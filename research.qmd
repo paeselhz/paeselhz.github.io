@@ -1,0 +1,46 @@
+---
+page-layout: full
+toc: false
+---
+
+# Publications
+
+---
+
+* [Early childhood home-based programmes and school violence: evidence from Brazil](https://www.pim.saude.rs.gov.br/site/wp-content/uploads/2021/02/UFPEL-Wink-et.-al.-2020.pdf)
+  * With MV Wink Junior and FG Ribeiro
+  * Development in Practice 32 (2), 133-143
+
+* [Impacts of grade configuration on Brazilian student outcomes](https://www.scielo.br/j/rbe/a/rcxKVPN9mQYyKyXPMvWYRkQ/)
+  * With MV Wink Junior and MC Griebeler
+  * Revista Brasileira de Economia 75, 91-115
+  
+* [Late and Unequal: Measuring Enrolments and Retention in Brazilian Education, 1933-2010](https://www.researchgate.net/profile/Thomas-Kang-3/publication/350669456_LATE_AND_UNEQUAL_MEASURING_ENROLMENTS_AND_RETENTION_IN_BRAZILIAN_EDUCATION_1933-2010/links/60ede89016f9f313007f83e3/LATE-AND-UNEQUAL-MEASURING-ENROLMENTS-AND-RETENTION-IN-BRAZILIAN-EDUCATION-1933-2010.pdf)
+  * With TH Kang and NFA Felix
+  * Revista de Historia Economica-Journal of Iberian and Latin American Economic History, 1-28
+
+* [The diversification benefits of cryptocurrencies in multi-asset portfolios: Cross-country evidence](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3776260)
+  * With JA Colombo, FIL Cruz and RX Cortes
+  * Available at SSRN 3776260
+
+* [Inequality of educational opportunities: Evidence from Brazil](https://www.sciencedirect.com/science/article/pii/S1517758018301772)
+  * With MV Wink Junior
+  * EconomiA 20 (2), 109-120
+
+* [Are Cryptocurrencies Suitable for Portfolio Diversification? Cross-Country Evidence](https://www.anpec.org.br/encontro/2019/submissao/files_I/i8-a2719c2b29132625fa99c7f2b5ed47c3.pdf)
+  * With JA Colombo, FIL Cruz and RX Cortes
+  * 47º ENCONTRO NACIONAL DE ECONOMIA - ANPEC
+
+* [Building State-Level Business Cycle Tracer Tools: Evidence from a Large Emerging Economy](https://pdfs.semanticscholar.org/6eff/0828992cb3abf6dd506c87cdb866574fe902.pdf)
+  * With JA Colombo, FIL Cruz and RX Cortes
+  * International Journal of Economics and Finance 10 (5), 14-30
+  
+* [Nível e desigualdade de aprendizado escolar: uma análise a partir dos desempenhos dos Coredes gaúchos no Sistema Nacional de Avaliação da Educação da Básica 2013 - *In Portuguese*]()
+  * With MV Wink Junior
+  * Indicadores Econômicos FEE 44 (4), 43-52
+
+# Working Papers
+
+---
+
+* No current Working Papers

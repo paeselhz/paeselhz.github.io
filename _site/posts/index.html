@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>LHZ Paese - Posts</title>
+<title>Luis Paese - Blog</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,6 +24,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
 <script src="../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
@@ -31,6 +32,8 @@ ul.task-list li input[type="checkbox"] {
 <meta name="quarto:offset" content="../">
 <script src="../site_libs/quarto-listing/list.min.js"></script>
 <script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -71,7 +74,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-author","listing-date","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -88,6 +91,31 @@ ul.task-list li input[type="checkbox"] {
     }
   })
   </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6QP6SPK8HL"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-6QP6SPK8HL', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
 <style>html{ scroll-behavior: smooth; }</style>
 </head><body class="nav-fixed"><header class="intro-header" style="background-image: url('/img/home-bg.jpg')">
 
@@ -97,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
         
         <div class="site-heading">
         
-          <h1>LHZ Paese</h1>
+          <h1>Luis Paese</h1>
           <span class="subheading">Machine Learning Engineer</span>
         </div>
       </div>
@@ -118,7 +146,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">LHZ Paese</span>
+    <span class="navbar-title">Luis Paese</span>
     </a>
   </div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
@@ -128,11 +156,19 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="../about.html">
- <span class="menu-text">About</span></a>
+ <span class="menu-text">About Me</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../posts/index.html" aria-current="page">
  <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../research.html">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../about.html">
+ <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/paeselhz"><i class="bi bi-github" role="img" aria-label="GitHub">
@@ -161,13 +197,13 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="abc"><span class="quarto-category-count category-cloud-10">abc</span></div><div class="category" data-category="def"><span class="quarto-category-count category-cloud-5">def</span></div><div class="category" data-category="teste"><span class="quarto-category-count category-cloud-10">teste</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-cloud"><div class="category" data-category="Data Science"><span class="quarto-category-count category-cloud-10">Data Science</span></div><div class="category" data-category="Docker"><span class="quarto-category-count category-cloud-5">Docker</span></div><div class="category" data-category="Github"><span class="quarto-category-count category-cloud-5">Github</span></div><div class="category" data-category="Github Actions"><span class="quarto-category-count category-cloud-5">Github Actions</span></div><div class="category" data-category="Programming"><span class="quarto-category-count category-cloud-5">Programming</span></div><div class="category" data-category="Project Templates"><span class="quarto-category-count category-cloud-5">Project Templates</span></div><div class="category" data-category="R"><span class="quarto-category-count category-cloud-5">R</span></div><div class="category" data-category="RStudio"><span class="quarto-category-count category-cloud-5">RStudio</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Posts</h1>
+<h1 class="title">Blog</h1>
 </div>
 
 
@@ -213,38 +249,35 @@ ul.task-list li input[type="checkbox"] {
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="teste,abc,def" data-listing-date-sort="1548738000000" data-listing-file-modified-sort="1674181825818" data-listing-reading-time-sort="0.005">
-<a href="../posts/teste1/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="0" data-categories="Github Actions,Docker,Data Science,Github" data-listing-date-sort="1601265600000" data-listing-file-modified-sort="1674614189766" data-listing-reading-time-sort="11.26">
+<a href="../posts/gh-actions-data-science/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Teste1
+Using GitHub Actions to speed up CI/CD in data science projects
 </h5>
-<div class="card-subtitle listing-subtitle">
-Bla bla bla
-</div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Jan 29, 2019
+Sep 28, 2020
 </div>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="teste,abc" data-listing-date-sort="1548738000000" data-listing-file-modified-sort="1674181824012" data-listing-reading-time-sort="0.005">
-<a href="../posts/teste2/index.html" class="quarto-grid-link">
+<div class="g-col-1" data-index="1" data-categories="RStudio,Project Templates,Data Science,Programming,R" data-listing-date-sort="1588132800000" data-listing-file-modified-sort="1674614566614" data-listing-reading-time-sort="0.37">
+<a href="../posts/rstudio-project-templates/index.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <div class="card-body post-contents">
 <h5 class="no-anchor card-title listing-title">
-Teste2
+Using RStudio Project Templates to help the project standardization in data science teams
 </h5>
 <div class="card-subtitle listing-subtitle">
-Bla bla bla
+Improving team collaboration and project standardization in data science
 </div>
 <div class="card-attribution card-text-small end">
 <div class="listing-date">
-Jan 29, 2019
+Apr 29, 2020
 </div>
 </div>
 </div>
@@ -428,7 +461,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
 </ul>
-      </div>
+      <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
   </div>
 </footer>
 

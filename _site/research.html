@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Luis Paese</title>
+<title>Luis Paese – research</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
@@ -62,35 +60,6 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-posts-front-page .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-subtitle','listing-author','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-posts-front-page'] = new List('listing-posts-front-page', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6QP6SPK8HL"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -133,7 +102,6 @@ cookieconsent.run({
   </div>
 </header>
 
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
 
@@ -163,7 +131,7 @@ cookieconsent.run({
  <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./research.html">
+    <a class="nav-link active" href="./research.html" aria-current="page">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -195,101 +163,67 @@ cookieconsent.run({
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
 
 
-<div id="listing-posts-front-page" class="quarto-listing quarto-listing-container-default">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Data Science,Infrastructure as Code,RStudio,Jupyterhub,Hashicord" data-listing-date-sort="1615953600000" data-listing-file-modified-sort="1674614912422" data-listing-reading-time-sort="0.375">
-<div class="body">
-<a href="./posts/ds-iac/index.html">
-<h3 class="no-anchor listing-title">
-Data Science meets Infrastructure as Code
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/ds-iac/index.html">
-<div class="listing-date">
-Mar 17, 2021
-</div>
-<div class="listing-author">
-Luis HZ Paese
-</div>
-<div class="listing-reading-time">
-0 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="Github Actions,Docker,Data Science,Github" data-listing-date-sort="1601265600000" data-listing-file-modified-sort="1674614661644" data-listing-reading-time-sort="11.26">
-<div class="body">
-<a href="./posts/gh-actions-data-science/index.html">
-<h3 class="no-anchor listing-title">
-Using GitHub Actions to speed up CI/CD in data science projects
-</h3>
-<div class="listing-subtitle">
-
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/gh-actions-data-science/index.html">
-<div class="listing-date">
-Sep 28, 2020
-</div>
-<div class="listing-author">
-Luis HZ Paese
-</div>
-<div class="listing-reading-time">
-11 min
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="RStudio,Project Templates,Data Science,Programming,R" data-listing-date-sort="1588132800000" data-listing-file-modified-sort="1674614666538" data-listing-reading-time-sort="0.37">
-<div class="body">
-<a href="./posts/rstudio-project-templates/index.html">
-<h3 class="no-anchor listing-title">
-Using RStudio Project Templates to help the project standardization in data science teams
-</h3>
-<div class="listing-subtitle">
-Improving team collaboration and project standardization in data science
-</div>
-</a>
-</div>
-<div class="metadata">
-<a href="./posts/rstudio-project-templates/index.html">
-<div class="listing-date">
-Apr 29, 2020
-</div>
-<div class="listing-author">
-Luis HZ Paese
-</div>
-<div class="listing-reading-time">
-0 min
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all posts</button></a></p>
-<p><br></p>
+<section id="publications" class="level1">
+<h1>Publications</h1>
+<hr>
+<ul>
+<li><a href="https://www.pim.saude.rs.gov.br/site/wp-content/uploads/2021/02/UFPEL-Wink-et.-al.-2020.pdf">Early childhood home-based programmes and school violence: evidence from Brazil</a>
+<ul>
+<li>With MV Wink Junior and FG Ribeiro</li>
+<li>Development in Practice 32 (2), 133-143</li>
+</ul></li>
+<li><a href="https://www.scielo.br/j/rbe/a/rcxKVPN9mQYyKyXPMvWYRkQ/">Impacts of grade configuration on Brazilian student outcomes</a>
+<ul>
+<li>With MV Wink Junior and MC Griebeler</li>
+<li>Revista Brasileira de Economia 75, 91-115</li>
+</ul></li>
+<li><a href="https://www.researchgate.net/profile/Thomas-Kang-3/publication/350669456_LATE_AND_UNEQUAL_MEASURING_ENROLMENTS_AND_RETENTION_IN_BRAZILIAN_EDUCATION_1933-2010/links/60ede89016f9f313007f83e3/LATE-AND-UNEQUAL-MEASURING-ENROLMENTS-AND-RETENTION-IN-BRAZILIAN-EDUCATION-1933-2010.pdf">Late and Unequal: Measuring Enrolments and Retention in Brazilian Education, 1933-2010</a>
+<ul>
+<li>With TH Kang and NFA Felix</li>
+<li>Revista de Historia Economica-Journal of Iberian and Latin American Economic History, 1-28</li>
+</ul></li>
+<li><a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3776260">The diversification benefits of cryptocurrencies in multi-asset portfolios: Cross-country evidence</a>
+<ul>
+<li>With JA Colombo, FIL Cruz and RX Cortes</li>
+<li>Available at SSRN 3776260</li>
+</ul></li>
+<li><a href="https://www.sciencedirect.com/science/article/pii/S1517758018301772">Inequality of educational opportunities: Evidence from Brazil</a>
+<ul>
+<li>With MV Wink Junior</li>
+<li>EconomiA 20 (2), 109-120</li>
+</ul></li>
+<li><a href="https://www.anpec.org.br/encontro/2019/submissao/files_I/i8-a2719c2b29132625fa99c7f2b5ed47c3.pdf">Are Cryptocurrencies Suitable for Portfolio Diversification? Cross-Country Evidence</a>
+<ul>
+<li>With JA Colombo, FIL Cruz and RX Cortes</li>
+<li>47º ENCONTRO NACIONAL DE ECONOMIA - ANPEC</li>
+</ul></li>
+<li><a href="https://pdfs.semanticscholar.org/6eff/0828992cb3abf6dd506c87cdb866574fe902.pdf">Building State-Level Business Cycle Tracer Tools: Evidence from a Large Emerging Economy</a>
+<ul>
+<li>With JA Colombo, FIL Cruz and RX Cortes</li>
+<li>International Journal of Economics and Finance 10 (5), 14-30</li>
+</ul></li>
+<li><a href="">Nível e desigualdade de aprendizado escolar: uma análise a partir dos desempenhos dos Coredes gaúchos no Sistema Nacional de Avaliação da Educação da Básica 2013 - <em>In Portuguese</em></a>
+<ul>
+<li>With MV Wink Junior</li>
+<li>Indicadores Econômicos FEE 44 (4), 43-52</li>
+</ul></li>
+</ul>
+</section>
+<section id="working-papers" class="level1">
+<h1>Working Papers</h1>
+<hr>
+<ul>
+<li>No current Working Papers</li>
+</ul>
 
 
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

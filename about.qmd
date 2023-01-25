@@ -1,9 +1,5 @@
 ---
-title: "About"
+title: "About Me"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+Hi there, my name is Luis HZ Paese, and I'm a Machine Learning Engineer!
