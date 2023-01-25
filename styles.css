@@ -90,18 +90,21 @@ pre code {
 
 @media only screen and (min-width: 768px)
 .navbar {
-    background: transparent;
+    background: #000000;
     border-bottom: 1px solid transparent;
 }
+
+#quarto-header {
+    background-image: url('https://webb.nasa.gov/content/webbLaunch/assets/images/images2023/jan-23-23-STSCI-J-p23106a-2k.jpg');
+}
 .navbar {
-    background: none;
+    background: transparent;
     border: none;
-    position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 3;
-    font-family: Montserrat !important;
+    font-family: 'Noto Sans SC', sans-serif;
     line-height: 1.7;
 }
 

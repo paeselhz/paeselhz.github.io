@@ -21,8 +21,7 @@ website:
         href: mailto:lhzpaese@gmail.com
     left: "Developed by LHZ Paese. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).<br>Powered by [Quarto](https://quarto.org)"
   navbar:
-    pinned: false
-    background: "#808080"
+    pinned: true
     right:
       - href: navbar/about.qmd
         text: About Me
@@ -48,7 +47,7 @@ format:
     theme: flatly
     css: styles.css
     toc: true
-    include-in-header: [meta.html, navbar/header.html]
+    include-in-header: [meta.html]
     link-external-newwindow: true
     link-external-filter: '^(?:http:|https:)\/\/paeselhz\.github\.io\/**'
     code-link: true
