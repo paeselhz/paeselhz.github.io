@@ -48,8 +48,7 @@ format:
     theme: flatly
     css: styles.css
     toc: true
-    include-in-header: meta.html
-    include-in-header: navbar/header.html
+    include-in-header: [meta.html, navbar/header.html]
     link-external-newwindow: true
     link-external-filter: '^(?:http:|https:)\/\/paeselhz\.github\.io\/**'
     code-link: true
