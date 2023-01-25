@@ -7,6 +7,8 @@ website:
   page-navigation: true
   cookie-consent: true
   google-analytics: "G-6QP6SPK8HL"
+  twitter-card: true
+  favicon: navbar/favicon.ico
   page-footer:
     center:
       - icon: github
