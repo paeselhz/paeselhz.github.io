@@ -8,11 +8,54 @@ listing:
   fields: [date, title, subtitle, author, reading-time]
   page-size: 3
 page-layout: full
+toc: false
+---
+
+# Featured Projects
+
+---
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card mb-2">
+<div class="card-body">
+<h5 class="card-title">Containerized Selenium</h5>
+<p class="card-text">This experiment allows the user to deploy a Selenium scraping inside a FastAPI deployment.</p>
+<a href="https://github.com/paeselhz/containarized_selenium_api" class="btn btn-primary stretched-link">GitHub</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card mb-2">
+<div class="card-body">
+<h5 class="card-title">Project 2</h5>
+<p class="card-text">Project 2 Description</p>
+<a href="challenges.html" class="btn btn-warning stretched-link">GitHub</a>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-4}
+<div class="card mb-2">
+<div class="card-body">
+<h5 class="card-title">Project 3</h5>
+<p class="card-text">Project 3 description</p><br>
+<a href="projects.html" class="btn btn-danger stretched-link">GitHub</a>
+</div>
+</div>
+:::
+
+:::
+
+<a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all posts</button></a>
+
+# Featured Posts
+
 ---
 
 ::: {#posts-front-page}
 :::
 
 <a href="../posts/index.html"> <button type="button" class="btn btn-primary float-end btn-sm">See all posts</button></a>
-
-<br>

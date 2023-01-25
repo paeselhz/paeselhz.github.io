@@ -22,13 +22,16 @@ website:
     left: "Developed by LHZ Paese. License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).<br>Powered by [Quarto](https://quarto.org)"
   navbar:
     pinned: true
-    right:
-      - href: navbar/about.qmd
-        text: About Me
+    left: 
       - href: posts/index.qmd
         text: Blog
       - href: navbar/research.qmd
         text: Research
+      - href: projects/index.qmd
+        text: Projects
+    right:
+      - href: navbar/about.qmd
+        text: About Me
       - href: navbar/about.qmd
         text: CV
       - icon: github
