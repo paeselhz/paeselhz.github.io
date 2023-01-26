@@ -30,9 +30,9 @@ toc: false
 ::: {.g-col-12 .g-col-md-4}
 <div class="card mb-2">
 <div class="card-body">
-<h5 class="card-title">Project 2</h5>
-<p class="card-text">Project 2 Description</p>
-<a href="challenges.html" class="btn btn-warning stretched-link">GitHub</a>
+<h5 class="card-title">Brazilian 2022 Elections</h5>
+<p class="card-text">Shiny application to view live voting count for the Brazilian 2022 presidential elections, second term.</p>
+<a href="https://github.com/paeselhz/apuracao_eleicoes_2022" class="btn btn-primary stretched-link">GitHub</a>
 </div>
 </div>
 :::
@@ -40,9 +40,9 @@ toc: false
 ::: {.g-col-12 .g-col-md-4}
 <div class="card mb-2">
 <div class="card-body">
-<h5 class="card-title">Project 3</h5>
-<p class="card-text">Project 3 description</p><br>
-<a href="projects.html" class="btn btn-danger stretched-link">GitHub</a>
+<h5 class="card-title">Density of candidates</h5>
+<p class="card-text">Application to allow exam candidates to view the density of candidates for the entrance exam at the Federal University of Rio Grande do Sul.</p>
+<a href="https://github.com/paeselhz/densidade_vestibular_ufrgs" class="btn btn-primary stretched-link">GitHub</a>
 </div>
 </div>
 :::

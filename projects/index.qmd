@@ -19,7 +19,6 @@ page-layout: full
 </div>
 </div>
 </div>
-
 :::
 
 ::: {.g-col-12 .g-col-md-6}
@@ -31,14 +30,31 @@ page-layout: full
 </div>
 <img src="/projects/screenshot_apuracao_eleicoes.png" class="contain"/>
 <div class="card-body">
-<p class="card-text">Shiny application to follow the voting counts for the Brazilian 2022 presidential elections in the second term. This application sources live data from the TSE (Superior Electoral Tribunal of Brazil),</p>
+<p class="card-text">Shiny application to follow the voting counts for the Brazilian 2022 presidential elections in the second term. This application sources live data from the TSE (Superior Electoral Court of Brazil), allowing for the user to check in real time the voting count. The application includes data in the country level, state level and municipality level.</p>
 </div>
 <div class="card-body">
 <a href="https://paese.shinyapps.io/apuracao_eleicoes_2022/" class="card-link">Live App</a>
 <a href="https://github.com/paeselhz/apuracao_eleicoes_2022" class="card-link">GitHub</a>
 </div>
 </div>
+:::
 
+::: {.g-col-12 .g-col-md-6}
+
+<div class="card mb-3">
+<div class="card-body">
+<h3 class="card-title">Density of applicants in UFRGS entrance exam - <em>In Portuguese</em></h3>
+<h6 class="card-subtitle text-muted">Historical data from 2016 until 2023</h6>
+</div>
+<img src="/projects/screenshot_densidades_ufrgs.png" class="contain"/>
+<div class="card-body">
+<p class="card-text">The purpose of this application is to allow for exam applicants to understand how disputed will be the entrance to specific courses at the Federal University of Rio Grande do Sul (UFRGS). This allows the user to view this data with different filters and to export this data to analyze themselves.</p>
+</div>
+<div class="card-body">
+<a href="https://paese.shinyapps.io/densidade_vestibular_ufrgs/" class="card-link">Live App</a>
+<a href="https://github.com/paeselhz/densidade_vestibular_ufrgs" class="card-link">GitHub</a>
+</div>
+</div>
 :::
 
 :::
