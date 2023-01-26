@@ -38,6 +38,16 @@ toc: false
 * [Nível e desigualdade de aprendizado escolar: uma análise a partir dos desempenhos dos Coredes gaúchos no Sistema Nacional de Avaliação da Educação da Básica 2013 - *In Portuguese*]()
   * With MV Wink Junior
   * Indicadores Econômicos FEE 44 (4), 43-52
+  
+# Presentations
+
+---
+
+* Using R and Docker in Data Science
+  * [*In Portuguese*](https://paeselhz.github.io/docker_presentation/)
+
+* Reticulate 101
+  * [*In Portuguese*](https://paeselhz.github.io/reticulate_101/)
 
 # Working Papers
 

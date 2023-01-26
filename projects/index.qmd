@@ -5,18 +5,21 @@ page-layout: full
 ---
 
 ::: {.grid}
+
 ::: {.g-col-12 .g-col-md-6}
 
 <div class="card mb-3">
 <div class="card-body">
-<h3 class="card-title">Containerized Selenium API</h3>
-<h6 class="card-subtitle text-muted">Running a Docker Container with Fast API, and requesting data using selenium</h6>
+<h3 class="card-title">Density of applicants in UFRGS entrance exam - <em>In Portuguese</em></h3>
+<h6 class="card-subtitle text-muted">Historical data from 2016 until 2023</h6>
 </div>
+<img src="/projects/screenshot_densidades_ufrgs.png" class="contain"/>
 <div class="card-body">
-<p class="card-text">The main objective of this repository is to deploy a Docker container with both, FastAPI and Selenium, to check the possibilities when we try to use FastAPI to receive parameters, and run a selenium process in the background to gather and parse data.</p>
-<img src = "https://img.shields.io/github/stars/paeselhz/containarized_selenium_api?style=social">
+<p class="card-text">The purpose of this application is to allow for exam applicants to understand how disputed will be the entrance to specific courses at the Federal University of Rio Grande do Sul (UFRGS). This allows the user to view this data with different filters and to export this data to analyze themselves.</p>
+<img src = "https://img.shields.io/github/stars/paeselhz/densidade_vestibular_ufrgs?style=social">
 <div class="card-body">
-<a href="https://github.com/paeselhz/containarized_selenium_api" class="card-link">GitHub</a>
+<a href="https://paese.shinyapps.io/densidade_vestibular_ufrgs/" class="card-link">Live App</a>
+<a href="https://github.com/paeselhz/densidade_vestibular_ufrgs" class="card-link">GitHub</a>
 </div>
 </div>
 </div>
@@ -45,16 +48,31 @@ page-layout: full
 
 <div class="card mb-3">
 <div class="card-body">
-<h3 class="card-title">Density of applicants in UFRGS entrance exam - <em>In Portuguese</em></h3>
-<h6 class="card-subtitle text-muted">Historical data from 2016 until 2023</h6>
+<h3 class="card-title">Containerized Selenium API</h3>
+<h6 class="card-subtitle text-muted">Running a Docker Container with Fast API, and requesting data using selenium</h6>
 </div>
-<img src="/projects/screenshot_densidades_ufrgs.png" class="contain"/>
 <div class="card-body">
-<p class="card-text">The purpose of this application is to allow for exam applicants to understand how disputed will be the entrance to specific courses at the Federal University of Rio Grande do Sul (UFRGS). This allows the user to view this data with different filters and to export this data to analyze themselves.</p>
-<img src = "https://img.shields.io/github/stars/paeselhz/densidade_vestibular_ufrgs?style=social">
+<p class="card-text">The main objective of this repository is to deploy a Docker container with both, FastAPI and Selenium, to check the possibilities when we try to use FastAPI to receive parameters, and run a selenium process in the background to gather and parse data.</p>
+<img src = "https://img.shields.io/github/stars/paeselhz/containarized_selenium_api?style=social">
 <div class="card-body">
-<a href="https://paese.shinyapps.io/densidade_vestibular_ufrgs/" class="card-link">Live App</a>
-<a href="https://github.com/paeselhz/densidade_vestibular_ufrgs" class="card-link">GitHub</a>
+<a href="https://github.com/paeselhz/containarized_selenium_api" class="card-link">GitHub</a>
+</div>
+</div>
+</div>
+:::
+
+::: {.g-col-12 .g-col-md-6}
+
+<div class="card mb-3">
+<div class="card-body">
+<h3 class="card-title">INEP/MEC Microdata scripts - <em>In Portuguese</em></h3>
+<h6 class="card-subtitle text-muted">Collection of repositories related to ETL of educational microdata available in Brazil</h6>
+</div>
+<div class="card-body">
+<p class="card-text">The repositories contain scripts related to the process of importing, cleaning, and transforming microdata extracted from Brazil's Ministry of Education. Both repositories assume that the user has already downloaded the datasets</p>
+<div class="card-body">
+<a href="https://github.com/paeselhz/microdados_censo_escolar" class="card-link">GitHub - Scholar Census</a>
+<a href="https://github.com/paeselhz/microdados_saeb_ate_2005" class="card-link">GitHub - SAEB until 2005</a>
 </div>
 </div>
 </div>
