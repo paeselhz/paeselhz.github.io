@@ -32,7 +32,7 @@ website:
     right:
       - href: navbar/about.qmd
         text: About Me
-      - href: navbar/about.qmd
+      - href: navbar/resume.pdf
         text: CV
       - icon: github
         aria-label: GitHub
