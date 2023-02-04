@@ -19,33 +19,28 @@ comments: false
 page-layout: full
 ---
 
-::: {.grid}
-
+::: grid
 ::: {.g-col-12 .g-col-md-12}
-## {{< fa solid microchip >}} About me
+## {{< fa solid microchip >}} About me 🇧🇷🇨🇦
 
 Hi there,
 
-I'm a Machine Learning Engineer, specializing in the development and deployment of machine learning artifacts, using software engineering best practices. Outside of my professional environments, I'm mostly interested in the development of open-source projects, as well as researching topics I find intriguing. This personal blog is a place where I convey some of the findings I come across during my research or
-my professional tasks as well as my takes on different topics that involve
-data science and software engineering.
+I'm a Machine Learning Engineer, specializing in the development and deployment of machine learning artifacts, using software engineering best practices. Outside of my professional environments, I'm mostly interested in the development of open-source projects, as well as researching topics I find intriguing. This personal blog is a place where I convey some of the findings I come across during my research or my professional tasks as well as my takes on different topics that involve data science and software engineering.
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-## {{< fa solid gears >}} Interests 
+## {{< fa solid gears >}} Interests
 
-- Data Science
-- Machine Learning
-- Software Development
-- Cloud Architecture
+-   Data Science
+-   Machine Learning
+-   Software Development
+-   Cloud Architecture
 :::
 
 ::: {.g-col-12 .g-col-md-6}
-## {{< fa solid flag-checkered >}}  Certifications
+## {{< fa solid flag-checkered >}} Certifications
 
-- [Machine Learning - Coursera](https://www.coursera.org/account/accomplishments/certificate/P7YCCU6VVP2H)
-- [GCP Cloud Architect Specialization - Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/3VENLYDABDRJ)
-
+-   [Machine Learning - Coursera](https://www.coursera.org/account/accomplishments/certificate/P7YCCU6VVP2H)
+-   [GCP Cloud Architect Specialization - Coursera](https://www.coursera.org/account/accomplishments/specialization/certificate/3VENLYDABDRJ)
 :::
-
 :::
