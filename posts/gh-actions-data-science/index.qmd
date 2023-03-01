@@ -56,7 +56,7 @@ The project can be found here: [paeselhz/ghActionsDockerShiny](https://github.co
 
 For those familiarized with the Dockerfile and its syntax, the execution is the same as expected in a project that will be developed, built, and ran locally with Docker. In it, we declare the base image that will be used for further installation of libraries and dependencies, as well as the configuration of the project, file copy, and other steps that usually can be added to a Dockerfile.
 
-```{dockerfile}
+```
 FROM rocker/shiny:4.0.0
 
 RUN apt-get update \
@@ -89,7 +89,7 @@ To GitHub Actions know which steps need to be taken for the workflow automation,
 
 In this file are declared a few steps such as the name of the workflow, the triggers that will be used to deploy the workflow execution, and the jobs that it will be responsible for executing. The name and trigger parts of the file are highly customizable, and the user can change it in many ways, moreover, in the part of the job, there are a few steps that are needed for the job to login in Docker Hub, configure BuildX (a tool that will be used to build the image), configure QEMU (a tool that will be allowing multi-platform builds), deploy the built image to Docker Hub, logout and clean the machine to ensure that no processes are still running.
 
-```{yaml}
+```
 # Setting up a Workflow to work with Github Actions
 name: ci
 # Controls to when trigger the GH Action
