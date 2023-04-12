@@ -9,6 +9,14 @@ body {
   font-family: 'EB Garamond', serif;
 }
 
+/*div.card {
+  background-color: '#f4f1ed' !important;
+}
+
+.nav-footer {
+  background-color: '#f4f1ed';
+}*/
+
 div.quarto-post .metadata {
   font-family: 'EB Garamond', serif;
   font-size: 1em;
@@ -90,7 +98,7 @@ pre code {
 
 @media only screen and (min-width: 768px)
 .navbar {
-    background: #000000;
+    background: '#f4f1ed';
     border-bottom: 1px solid transparent;
 }
 

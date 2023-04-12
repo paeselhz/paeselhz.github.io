@@ -47,7 +47,8 @@ website:
 format:
   html:
     smooth-scroll: true
-    theme: flatly
+    theme: [flatly, styles.scss]
+    backgroundcolor: '#f4f1ed'
     css: styles.css
     toc: true
     include-in-header: [meta.html]
