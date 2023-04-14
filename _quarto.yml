@@ -29,6 +29,8 @@ website:
         text: Research
       - href: projects/index.qmd
         text: Projects
+      - href: recipes/index.qmd
+        text: Recipes
     right:
       - href: navbar/about.qmd
         text: About Me

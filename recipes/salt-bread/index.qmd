@@ -1,0 +1,52 @@
+---
+title: "Salt bread/Pão francês"
+author: "Luis HZ Paese"
+categories:
+  - Bread
+  - Baking
+date: 2021-03-17
+toc: true
+code-copy: true
+title-block-banner-color: black
+---
+
+> Para a versão em português, clique [aqui](index-pt-br.qmd).
+
+## Sponge
+
+The role of a sponge in bread making is not to activate the yeast, but to give it the strength it will need to rise with the next additions of flour and other ingredients, this is why the process of creating the sponge feeds the **yeast** with water and flour.
+
+### Ingredients
+
+* 1/4 cup of flour
+* 1 tablespoon of dry yeast
+* 3 tablespoons of water
+
+Mix the flour and the yeast with a fork, and slowly start adding the water to create and homogeneous mixture. After mixing it up, leave it to rest for 1/2 hour to 1 hour (the time will depend on the temperature of the room, to allow the sponge to grow effectively).
+
+
+## Dough
+
+### Ingredients
+
+* 2 + 3/4 cups of flour
+* 1/2 tablespoon of salt
+* 1/2 tablespoon of sugar
+* 1 + 1/2 tablespoon of butter
+  * The butter cannot be too cold, neither too hot, but it needs to be warm enough to be incorporated to the dough
+* 1 cup of water
+
+Start mixing up the solid ingredients, with the flour, salt and sugar; add the sponge and the butter to the mix and slowly start adding water ^[The amount of water that you'll add to the mixture will vary depending on the capacity of water absortion of the flour, so you need to tweak it to suit your need and allow the dough not to be too moist, neither too dry].
+
+After this step, you can start knitting the dough for a time between 10 and 15 minutes, the time might vary specially if you are doing it by hand, or using a stand-up mixer, but it is important that the dough reaches a point when it can be stretched without tearing apart. Leave the dough to rest for 20~30 minutes covered with a wet towel.
+
+
+## Shape the bread
+
+Parte do crescimento da massa vai acontecer quando os cacetinhos ja estiverem moldados, entao depois desses 20 a 30 minutos, tu ja pode comecar a moldar eles (nao se importa se a massa nao crescer muito, vai depender da forca do fermento, temperatura e quantidade de agua, mas isso nao impede deles crescerem mais depois de estiverem moldados). 
+Divide a massa em 6 partes "iguais", cada uma das partes tu vai moldar em formato de losango, sendo mais fino nas pontas e mais espesso no meio. Ai tu comeca saindo de uma ponta, e enrolando ate a outra ponta, fazendo um "charuto de massa" com umas 6 ou 7 dobras, nao precisa mais que isso. Deixa esses pré-cacetinhos repousando por mais uns 20 a 30 minutos.
+Passada essa ultima fermentacao, tu vai fazer o molde final dos cacetinhos, entao tu vai pegar esses "charutos de massa" que tu fez, esticar eles novamente no formato de losango, e ir enrolando ate formar o formato do cacetinho. Nessa dobra, é importante que tu faça ela mais "justa", dobrando de 9 a 10 vezes, e tentando esticar a massa ao máximo a medida que tu for enrolando ela, isso vai dar a tensao que a massa precisa na superficie pra criar a casquinha. Feito isso, agora é a ultima fermentacao, que pode levar de 30 a 60 minutos. Vai depender de como ta a temperatura ai, e do crescimento da massa.
+
+Agora vem a parte chave de assar o cacetinho. O forno precisa de umidade dentro, e pra criar umidade tu vai fazer o seguinte: Pega uma camiseta velha, ou pano velho que voces tenham e bota numa forma, enche essa forma de agua fervendo ate a metade, e bota no forno pre-aquecido, pra comecar a criar vapor de agua la dentro. Pra assar, o forno precisa estar a 220oC, e leva de 20 a 30 minutos. Antes de colocar o cacetinho no forno, tambem da uma "molhada" nele, pra deixar umidade na superficie da massa, e criar a casquinha. 
+Com 15 minutos de cozimento, remover a forma com agua fervendo pra cortar a umidade, e finalizar o processo de assar o cacetinho.
+

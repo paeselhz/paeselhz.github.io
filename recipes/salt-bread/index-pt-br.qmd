@@ -1,0 +1,45 @@
+---
+title: "Pão francês/Salt bread"
+author: "Luis HZ Paese"
+categories:
+  - Bread
+  - Baking
+date: 2021-03-17
+toc: true
+code-copy: true
+title-block-banner-color: black
+---
+
+> For the english version, click [here](index.qmd).
+
+## Esponja
+
+A função da esponja não é ativar o fermento, mas sim dar força pra ele, por isso tu alimenta ele com um pouco de água e farinha, pra ele ter mais forca pra crescer depois com o restante da massa
+
+### Ingredientes
+
+* 1/4 de xicara de farinha
+* 10g de Fermento biologico seco
+* 3 colheres de sopa de agua
+
+Adiciona tudo numa tigela, mistura bem ate formar um pasta homogenea, e deixa descansando por 1/2 hora, precisar dar tempo pro fermento se alimentar da farinha e comecar a ganhar forca
+
+## Massa do pão
+
+### Ingredientes
+* 2 + 3/4 de xicara de farinha
+* 1/2 colher de sopa de sal
+* 1/2 colher de sopa de acucar
+* 1 + 1/2 colher de sopa de manteiga (se ela estiver mto fria, coloca uns 10 segundos no microondas, mas nao pode adicionar a manteiga quente na massa)
+* 1 xicara de agua
+
+Adiciona a farinha, sal, acucar e manteiga na esponja que tu fez antes. Mistura bem e vai aos poucos adicionando agua, talvez precise colocar um pouco mais ou um pouco menos de agua na massa, vai depender da capacidade de absorcao de agua que a tua farinha tem, por isso vai indo aos poucos pra nao encharcar demais a massa, ou deixar ela muito seca. Feito isso, comeca a sovar a massa de 10 a 15 minutos. O tempo nao é preciso, mas é importante que a massa do pão chegue em ponto de véu (quando a massa estica sem rasgar). Feito isso, deixar a massa repousar por 20 a 30 minutos
+
+## Moldar a massa
+
+Parte do crescimento da massa vai acontecer quando os pão francês ja estiverem moldados, entao depois desses 20 a 30 minutos, tu ja pode comecar a moldar eles (nao se importa se a massa nao crescer muito, vai depender da forca do fermento, temperatura e quantidade de agua, mas isso nao impede deles crescerem mais depois de estiverem moldados). 
+Divide a massa em 6 partes "iguais", cada uma das partes tu vai moldar em formato de losango, sendo mais fino nas pontas e mais espesso no meio. Ai tu comeca saindo de uma ponta, e enrolando ate a outra ponta, fazendo um "charuto de massa" com umas 6 ou 7 dobras, nao precisa mais que isso. Deixa esses pré-pão francês repousando por mais uns 20 a 30 minutos.
+Passada essa ultima fermentacao, tu vai fazer o molde final dos pão francês, entao tu vai pegar esses "charutos de massa" que tu fez, esticar eles novamente no formato de losango, e ir enrolando ate formar o formato do pão francês. Nessa dobra, é importante que tu faça ela mais "justa", dobrando de 9 a 10 vezes, e tentando esticar a massa ao máximo a medida que tu for enrolando ela, isso vai dar a tensao que a massa precisa na superficie pra criar a casquinha. Feito isso, agora é a ultima fermentacao, que pode levar de 30 a 60 minutos. Vai depender de como ta a temperatura ai, e do crescimento da massa.
+
+Agora vem a parte chave de assar o pão francês. O forno precisa de umidade dentro, e pra criar umidade tu vai fazer o seguinte: Pega uma camiseta velha, ou pano velho que voces tenham e bota numa forma, enche essa forma de agua fervendo ate a metade, e bota no forno pre-aquecido, pra comecar a criar vapor de agua la dentro. Pra assar, o forno precisa estar a 220oC, e leva de 20 a 30 minutos. Antes de colocar o pão francê no forno, tambem da uma "molhada" nele, pra deixar umidade na superficie da massa, e criar a casquinha. 
+Com 15 minutos de cozimento, remover a forma com agua fervendo pra cortar a umidade, e finalizar o processo de assar o pão francês.

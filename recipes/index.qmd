@@ -1,0 +1,25 @@
+---
+title: "Recipes"
+listing:
+  - id: recipes
+    contents: "**/*/index.qmd"
+    type: grid
+    fields: [date, title, subtitle]
+    sort: "date desc"
+    categories: cloud
+    sort-ui: true
+    filter-ui: true
+    page-size: 36     
+page-layout: full
+title-block-banner: false
+comments: false
+include-in-header: header.html  
+toc: true
+---
+
+Sometimes I enjoy taking off my ML Engineer *hat* and like putting on the cook *hat*. Below are some experiments and recipes that I've done in the past.
+
+> I try my best to develop the recipes in both English and Portuguese, however, any suggestions for changes are welcome.
+
+::: {#posts}
+:::
