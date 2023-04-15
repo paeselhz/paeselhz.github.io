@@ -12,6 +12,8 @@ title-block-banner-color: black
 
 > Para a versão em português, clique [aqui](index-pt-br.qmd).
 
+![Salt Bread/Pão Francês](salt-bread.jpg)
+
 ## Sponge
 
 The role of a sponge in bread making is not to activate the yeast, but to give it the strength it will need to rise with the next additions of flour and other ingredients, this is why the process of creating the sponge feeds the **yeast** with water and flour.
@@ -22,7 +24,11 @@ The role of a sponge in bread making is not to activate the yeast, but to give i
 * 1 tablespoon of dry yeast
 * 3 tablespoons of water
 
-Mix the flour and the yeast with a fork, and slowly start adding the water to create and homogeneous mixture. After mixing it up, leave it to rest for 1/2 hour to 1 hour (the time will depend on the temperature of the room, to allow the sponge to grow effectively).
+### Steps
+
+* Mix the flour and the yeast with a fork, and slowly start adding the water;
+* Start mixing to create a homogeneous mixture;
+* After mixing it up, leave it to rest for 1/2 hour to 1 hour (the time will depend on the temperature of the room, to allow the sponge to grow effectively);
 
 
 ## Dough
@@ -36,17 +42,38 @@ Mix the flour and the yeast with a fork, and slowly start adding the water to cr
   * The butter cannot be too cold, neither too hot, but it needs to be warm enough to be incorporated to the dough
 * 1 cup of water
 
-Start mixing up the solid ingredients, with the flour, salt and sugar; add the sponge and the butter to the mix and slowly start adding water ^[The amount of water that you'll add to the mixture will vary depending on the capacity of water absortion of the flour, so you need to tweak it to suit your need and allow the dough not to be too moist, neither too dry].
+### Steps
 
-After this step, you can start knitting the dough for a time between 10 and 15 minutes, the time might vary specially if you are doing it by hand, or using a stand-up mixer, but it is important that the dough reaches a point when it can be stretched without tearing apart. Leave the dough to rest for 20~30 minutes covered with a wet towel.
-
+* Start mixing up the solid ingredients (flour, salt and sugar), add the sponge and the butter to the mixture;
+* Slowly start adding water to control the dough humidity, the dough should not be to moist, neither too dry;
+  * The amount of water that will be added to the mixture will vary depending on the water absorption of the flour
+* Knead the dough for a time between 10 to 15 minutes, this time might vary, specially if you are doing it by hand, but it is important that the dough reaches a point when it can be stretched without tearing apart;
+* Leave the dough to rest for 20~30 minutes covered with a wet towel;
 
 ## Shape the bread
 
-Parte do crescimento da massa vai acontecer quando os cacetinhos ja estiverem moldados, entao depois desses 20 a 30 minutos, tu ja pode comecar a moldar eles (nao se importa se a massa nao crescer muito, vai depender da forca do fermento, temperatura e quantidade de agua, mas isso nao impede deles crescerem mais depois de estiverem moldados). 
-Divide a massa em 6 partes "iguais", cada uma das partes tu vai moldar em formato de losango, sendo mais fino nas pontas e mais espesso no meio. Ai tu comeca saindo de uma ponta, e enrolando ate a outra ponta, fazendo um "charuto de massa" com umas 6 ou 7 dobras, nao precisa mais que isso. Deixa esses pré-cacetinhos repousando por mais uns 20 a 30 minutos.
-Passada essa ultima fermentacao, tu vai fazer o molde final dos cacetinhos, entao tu vai pegar esses "charutos de massa" que tu fez, esticar eles novamente no formato de losango, e ir enrolando ate formar o formato do cacetinho. Nessa dobra, é importante que tu faça ela mais "justa", dobrando de 9 a 10 vezes, e tentando esticar a massa ao máximo a medida que tu for enrolando ela, isso vai dar a tensao que a massa precisa na superficie pra criar a casquinha. Feito isso, agora é a ultima fermentacao, que pode levar de 30 a 60 minutos. Vai depender de como ta a temperatura ai, e do crescimento da massa.
+Most of the dough growing will take place after the bread is cast into shape, this is why the first fermenting step is quick. If the dough doesn't grow as expected in this first 20 to 30 minutes, there is no worry, since the bread will grow more after casting.
 
-Agora vem a parte chave de assar o cacetinho. O forno precisa de umidade dentro, e pra criar umidade tu vai fazer o seguinte: Pega uma camiseta velha, ou pano velho que voces tenham e bota numa forma, enche essa forma de agua fervendo ate a metade, e bota no forno pre-aquecido, pra comecar a criar vapor de agua la dentro. Pra assar, o forno precisa estar a 220oC, e leva de 20 a 30 minutos. Antes de colocar o cacetinho no forno, tambem da uma "molhada" nele, pra deixar umidade na superficie da massa, e criar a casquinha. 
-Com 15 minutos de cozimento, remover a forma com agua fervendo pra cortar a umidade, e finalizar o processo de assar o cacetinho.
+### First Cast
+
+* Split the dough into 6 even parts, each of the parts will be shaped as a *stretched diamond*, thinner in the edges and thicker in the middle;
+* Take one edge of the bread, and start rolling it into the dough, casting it into a cylindrical format, with 6 or 7 rolls;
+* Do it for the 6 parts, and let them rest for another 20 to 30 minutes;
+
+### Second Cast
+
+* Take each cylinder, and stretch it back again to the *stretched diamond* format;
+* From the edge of the bread, start rolling it into the dough as in the previous step, however, rolling it tighter, to create tension in the outer layer of the bread, casting it into a cylindrical format again, with 9 to 10 rolls;
+* Do it for the 6 breads, and leave it to grow for 1 hour.
+
+## Baking
+
+To bake this bread, the oven will need to have high humidity levels, to allow the bread to create a thick crust. One way that can be used to create humidity inside the oven is to place a tray with boiling water and a towel inside, allowing the water to evaporate inside the oven.
+
+* Set the oven to 220ºC (430º F) and add the tray with boiling water;
+* Insert the dough rolls in the oven;
+* When it hits the 15 minute mark, remove the tray with boiling water;
+* Leave the bread for another 10 to 15 minutes, which should be enough time to harden the bread crust and leave it with a *golden* color;
+
+Happy baking!
 
