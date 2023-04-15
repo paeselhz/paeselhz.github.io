@@ -1,0 +1,16 @@
+---
+title: "Cinnamon Roll"
+author: "Luis HZ Paese"
+categories:
+  - Bread
+  - Baking
+date: 2023-04-01
+toc: true
+code-copy: true
+title-block-banner-color: black
+image: salt-bread.jpg
+---
+
+> Para a versão em português, clique [aqui](index-pt-br.qmd).
+
+![Cinnamon Roll](cinnamon-roll.jpg)
