@@ -1,0 +1,27 @@
+[
+  {
+    "listing": "/posts/index.html",
+    "items": [
+      "/posts/immigrant-characteristics-canada/index.html",
+      "/posts/rstudio-emr/index.html",
+      "/posts/ds-iac/index.html",
+      "/posts/gh-actions-data-science/index.html",
+      "/posts/rstudio-project-templates/index.html",
+      "/posts/gcp-rstudio-shiny-server/index.html"
+    ]
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/immigrant-characteristics-canada/index.html",
+      "/posts/gh-actions-data-science/index.html",
+      "/posts/rstudio-project-templates/index.html"
+    ]
+  },
+  {
+    "listing": "/recipes/index.html",
+    "items": [
+      "/recipes/salt-bread/index.html"
+    ]
+  }
+]

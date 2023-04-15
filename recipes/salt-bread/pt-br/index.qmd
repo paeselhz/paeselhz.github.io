@@ -9,5 +9,3 @@ toc: true
 code-copy: true
 title-block-banner-color: black
 ---
-
-Teste123

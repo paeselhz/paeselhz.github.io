@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Luis HZ Paese">
+<meta name="dcterms.date" content="2021-03-31">
+
+<title>Luis Paese - RStudio Server in AWS EMR</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../navbar/favicon.ico" rel="icon">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6QP6SPK8HL"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-6QP6SPK8HL', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"implied",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+<style>html{ scroll-behavior: smooth; }</style>
+<!--<base target="_blank">-->
+<!-- Primary Meta Tags -->
+<title>Luis Paese</title>
+<meta name="title" content="Luis Paese">
+<meta name="description" content="Welcome to my website! Here I write about Data Science and MLOps.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://paeselhz.github.io/">
+<meta property="og:title" content="Luis Paese - RStudio Server in AWS EMR">
+<meta property="og:description" content="Welcome to my website! Here I write about Data Science and MLOps.">
+<!--<meta property="og:image" content="">-->
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://paeselhz.github.io/">
+<meta property="twitter:title" content="Luis Paese">
+<meta property="twitter:description" content="Welcome to my website! Here I write about Data Science and MLOps.">
+<!--<meta property="twitter:image" content="">-->
+
+
+<link rel="stylesheet" href="../../styles.css">
+<meta name="twitter:title" content="Luis Paese - RStudio Server in AWS EMR">
+<meta name="twitter:description" content="Easy deployment, reproducible, and fast">
+<meta name="twitter:creator" content="@paeselhz">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Luis Paese</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../posts/index.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../navbar/research.html">
+ <span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../projects/index.html">
+ <span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../recipes/index.html">
+ <span class="menu-text">Recipes</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../navbar/about.html">
+ <span class="menu-text">About Me</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../navbar/resume.pdf">
+ <span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/paeselhz"><i class="bi bi-github" role="img" aria-label="GitHub">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/lhzpaese/"><i class="bi bi-linkedin" role="img" aria-label="LinkedIn">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/paeselhz"><i class="bi bi-twitter" role="img" aria-label="Twitter">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#the-reasoning" id="toc-the-reasoning" class="nav-link active" data-scroll-target="#the-reasoning">The reasoning</a></li>
+  <li><a href="#the-how-to" id="toc-the-how-to" class="nav-link" data-scroll-target="#the-how-to">The How-To</a></li>
+  <li><a href="#deploying-the-emr-cluster-using-terraform" id="toc-deploying-the-emr-cluster-using-terraform" class="nav-link" data-scroll-target="#deploying-the-emr-cluster-using-terraform">Deploying the EMR Cluster using Terraform</a></li>
+  <li><a href="#allowing-custom-ports-in-aws-emr" id="toc-allowing-custom-ports-in-aws-emr" class="nav-link" data-scroll-target="#allowing-custom-ports-in-aws-emr">Allowing custom ports in AWS EMR</a></li>
+  <li><a href="#configuring-the-rstudio-server-to-use-the-full-extent-of-aws-emr-resources" id="toc-configuring-the-rstudio-server-to-use-the-full-extent-of-aws-emr-resources" class="nav-link" data-scroll-target="#configuring-the-rstudio-server-to-use-the-full-extent-of-aws-emr-resources">Configuring the RStudio Server to use the full extent of AWS EMR resources</a></li>
+  <li><a href="#aws-glue-metastore-as-json-configuration-in-terraform-module" id="toc-aws-glue-metastore-as-json-configuration-in-terraform-module" class="nav-link" data-scroll-target="#aws-glue-metastore-as-json-configuration-in-terraform-module">AWS Glue metastore as JSON configuration in Terraform module</a></li>
+  <li><a href="#final-remarks" id="toc-final-remarks" class="nav-link" data-scroll-target="#final-remarks">Final remarks</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">RStudio Server in AWS EMR</h1>
+<p class="subtitle lead">Easy deployment, reproducible, and fast</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Data Science</div>
+    <div class="quarto-category">Infrastructure as Code</div>
+    <div class="quarto-category">Terraform</div>
+    <div class="quarto-category">AWS EMR</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Luis HZ Paese </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 31, 2021</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<p>In a previous post that I’ve written (<a href="../../posts/ds-iac/index.html">which can be found here</a>), I shared my views on the use of Infrastructure as Code tools, such as Packer and Terraform, to create Amazon Machine Images (AMI), creating a reproducible environment for data scientists and data analysts to explore Cloud resources with many tools pre-installed in the machine (Jupyterhub and RStudio Server).</p>
+<p>I shall not extend myself in this post, since it has already been covered, but the repository associated with the other blog post uses Ansible playbooks to install the required packages and libraries to develop analysis and models using both R and Python, however, the main reason that I’ve explored the possibilities of creating custom AMIs is to use them as base images in the deployment of AWS EMR Clusters.</p>
+<section id="the-reasoning" class="level2">
+<h2 class="anchored" data-anchor-id="the-reasoning">The reasoning</h2>
+<p>Many people that have deployed EMR Clusters in the past, already know that the deployment of the cluster can be associated with bootstrap scripts that will provide the necessary tools that the Data Scientist, Analyst, or Engineer will use in their work, and even though this is a significant solution, it adds a time penalty to the deployment of the server (the more packages and libraries associated with the cluster initialization, the higher will be the time of deployment of the cluster).</p>
+<p>The default deployment of EMR allows the provisioning of Jupyter Notebooks or Zeppelin notebooks along with the initialization of the cluster, however, R and RStudio users are left lagging behind since both solutions are not available natively in the EMR Cluster, so I felt compelled to explore other solutions that were both scalable and fast allowing every analyst/scientist/engineer to deploy their own cluster, do their work in what language best suits their needs, and then shut down the cluster when they are done.</p>
+<p>After some digging, I found out that after the release of EMR 5.7 (and later), the cluster could be deployed using a custom Amazon Machine image, only by following a few recommendations and best practices as suggested <a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-custom-ami.html">here</a>, like using an Amazon Linux 2 for EMR releases greater than EMR 5.30 and 6.x. This was the trigger that led me to first, create a custom Amazon Machine Image using Packer and Ansible (to ensure the installation and configuration of an RStudio Server), and later on use this image to deploy an EMR Cluster, and do a few more configurations to ensure that the RStudio user would have access to the Spark environments, Hadoop and other features available by using an EMR Cluster.</p>
+</section>
+<section id="the-how-to" class="level2">
+<h2 class="anchored" data-anchor-id="the-how-to">The How-To</h2>
+<p>As with my other blog post, this is associated with a <a href="https://github.com/paeselhz/emr-spark-client">repository</a> that helps the user to:</p>
+<ul>
+<li>Deploy an EMR Cluster using Terraform and using a custom AMI</li>
+<li>Configure the default RStudio Server user to access the Hadoop File System and Spark environments</li>
+<li>Use the AWS Glue Metastore along with the Spark cluster, so that data catalogs that already exist in Glue can be accessed by the EMR Cluster</li>
+</ul>
+<p>Beware that this deployment is AWS-focused, and I don’t have plans to develop this same project in other clouds right now, even though I know it is possible by using tools that are available from both Google Cloud Platform and Azure.</p>
+</section>
+<section id="deploying-the-emr-cluster-using-terraform" class="level2">
+<h2 class="anchored" data-anchor-id="deploying-the-emr-cluster-using-terraform">Deploying the EMR Cluster using Terraform</h2>
+<p>In the project <a href="https://github.com/paeselhz/emr-spark-client">repository</a>, we have a stack to deploy the EMR cluster using Terraform scripts that are modularized, so any adaptations necessary to suit your infrastructure needs (such as the creation of keys, or permission of roles) can be implemented separately. As of today, Terraform expects the variables as described below, to allow the creation of the cluster master server and core nodes along with it.</p>
+<p>This implementation also supports the use of spot instances in the master and core nodes, however, in any production environment, it is recommended that at least the master node be deployed as an On-Demand instance, since, if it shuts down, the whole cluster would be terminated.</p>
+<p>The variables available in my Terraform configuration are as below:</p>
+<pre><code># EMR general configurations
+name = "" # Name of the EMR Cluster
+region = "us-east-1" # Region of the cluster, must be the same region that the AMI was built
+key_name = "" # The name of the key pair that can be used to SSH into the cluster
+ingress_cidr_blocks = "" # Your IP address to connect to the cluster
+release_label = "emr-6.1.0" # The release of EMR of your choice
+applications = ["Hadoop", "Spark", "Hive"] # The applications to be available as the cluster starts up
+
+# Master node configurations
+master_instance_type = "m5.xlarge" # EC2 instance type of the master node The underlying architecture of the machine must be compatible with the one used to build the custom AMI
+master_ebs_size = "50" # Size in GiB of the EBS disk allocated to master instance
+master_ami = ""  # ID of the AMI created with the custom installation of R and RStudio
+# If the user chooses to set a bid price, it will implicitly create a SPOT Request
+# If left empty, it will default to On-Demand instancesmaster_bid_price = ""
+
+# Core nodes configurations
+core_instance_type = "m5.xlarge" # EC2 instance type of each core node The underlying architecture of the machine must be compatible with the one used to build the custom AMI
+core_ebs_size = "50" # Size in GiB of the EBS disk allocated to each core instance
+core_instance_count = 1 # Number of core instances that the cluster can scale
+# If the user chooses to set a bid price, it will implicitly create a SPOT Request
+# If left empty, it will default to On-Demand instancescore_bid_price = "0.10"</code></pre>
+<p>These configurations should be enough to get you up and running with a custom EMR cluster.</p>
+</section>
+<section id="allowing-custom-ports-in-aws-emr" class="level2">
+<h2 class="anchored" data-anchor-id="allowing-custom-ports-in-aws-emr">Allowing custom ports in AWS EMR</h2>
+<p>A few changes to enhance security were added since December 2020, that require the user to manually allow ports to be publically available as can be found <a href="https://docs.aws.amazon.com/emr/latest/ManagementGuide/emr-man-sec-groups.html">here</a>. If this is not your case, you can skip to the next session, but, if you desire to expose your RStudio Server instance to be publically accessible through the internet, you have to follow the steps described below:</p>
+<ul>
+<li>Go into the <a href="https://console.aws.amazon.com/elasticmapreduce/home?region=us-east-1#block-public-access:">AWS Console &gt; EMR</a></li>
+<li>Select Block Public Access (which should be activated)</li>
+<li>Edit the port interval to allow port 8787 to be used publically by RStudio Server</li>
+</ul>
+<p>If your desire is to deploy a custom server that will be available only to a few IP addresses, you can skip this step and set the ingress_cidr_blocks to your personal IP address.</p>
+</section>
+<section id="configuring-the-rstudio-server-to-use-the-full-extent-of-aws-emr-resources" class="level2">
+<h2 class="anchored" data-anchor-id="configuring-the-rstudio-server-to-use-the-full-extent-of-aws-emr-resources">Configuring the RStudio Server to use the full extent of AWS EMR resources</h2>
+<p>The steps described below are already embedded in the Terraform scripts that deploy the cluster and are here merely for informational purposes if someone wishes to tweak with it and customize it.</p>
+<p>After the deployment of the server is added a further step that configures the environment variables that make it easier for RStudio to find the necessary files to run smoothly with Spark, Hive, Hadoop, and other tools available in the cluster. Also, this step adds RStudio users to the Hadoop group and allows it to modify the HDFS.</p>
+<p>This step can be found <a href="https://github.com/paeselhz/emr-spark-client/blob/master/scripts/post-installation-cfg.sh">here</a> in the project.</p>
+</section>
+<section id="aws-glue-metastore-as-json-configuration-in-terraform-module" class="level2">
+<h2 class="anchored" data-anchor-id="aws-glue-metastore-as-json-configuration-in-terraform-module">AWS Glue metastore as JSON configuration in Terraform module</h2>
+<p>With the rising of off-the-shelf tools, such as AWS Glue, that allow the transformation of data and storing both the data and its metadata in an easy way, there was a need to integrate the EMR Cluster with this stack. This is also already been done in the Terraform stack, so if the user desire to use a Hive Metastore instead of a managed AWS Glue Metastore, this part of the code needs to be removed.</p>
+<p>This step is done by a configurations_json inside the EMR main Terraform, which receives multiple inputs about how the cluster should be configured, changing spark-defaults (allowing different SQL catalog implementations for example), hive-site configurations to use the AWS Glue Metastore as default hive-site, and so on. The list of possibilities to be configured can be found <a href="https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-configure-apps.html">here</a>.</p>
+</section>
+<section id="final-remarks" class="level2">
+<h2 class="anchored" data-anchor-id="final-remarks">Final remarks</h2>
+<p>The deployment of this project aims to close the gap between the provisioning of Data Science related stacks, trying to ensure that, no matter the tool that the Data Scientists/Analyst/Engineer aims to use, they will have the opportunity to use it. By the end of the deployment, one should be able to access, in less than 10 minutes, a fully functional EMR cluster with R and RStudio server installed and configured in the master node of the EMR.</p>
+<p>Any issues related to this project, including suggestions, can be added to the Github repository.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp(/^(?:http:|https:)\/\/paeselhz\.github\.io\/**/);
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Developed by LHZ Paese. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.<br>Powered by <a href="https://quarto.org">Quarto</a></div>   
+      <div class="nav-footer-center">
+        <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/paeselhz/">
+      <i class="bi bi-github" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://twitter.com/paeselhz">
+      <i class="bi bi-twitter" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="mailto:lhzpaese@gmail.com">
+      <i class="bi bi-envelope" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+      <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+  </div>
+</footer>
+
+
+
+<script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
