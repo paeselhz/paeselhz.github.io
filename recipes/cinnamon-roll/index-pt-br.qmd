@@ -66,7 +66,7 @@ A função da esponja não é ativar o fermento, mas sim dar força pra ele, por
 * Espalhar manteiga na massa, deixando uma borda sem manteiga para fechar a massa depois;
   * É importante lembrar que a manteiga precisa estar em temperatura ambiente, para não afetar o crescimento da massa e facilitar o processo de espalhar a manteiga.
 * Adicionar a mistura do recheio em toda área amanteigada da massa;
-* Começar a enrolar a massa, partindo do ponto com recheio em direção ao ponto que foi deixado sme recheio;
+* Começar a enrolar a massa, partindo do ponto com recheio em direção ao ponto que foi deixado sem recheio;
 * Cortar os Cinnamon Rolls com aproximadamente 3 cm de altura, e já posicionar na assadeira que será utilizada para assar;
 * Reservar a massa por mais 30 minutos;
 
