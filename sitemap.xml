@@ -2,62 +2,70 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://paeselhz.github.io/navbar/research.html</loc>
-    <lastmod>2023-04-15T17:32:24.437Z</lastmod>
+    <lastmod>2023-05-19T02:50:50.759Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/navbar/about.html</loc>
-    <lastmod>2023-04-15T17:32:24.819Z</lastmod>
+    <lastmod>2023-05-19T02:50:51.097Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/posts/rstudio-emr/index.html</loc>
-    <lastmod>2023-04-15T17:32:26.758Z</lastmod>
+    <lastmod>2023-05-19T02:50:51.934Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/posts/immigrant-characteristics-canada/documentation/literary_review.html</loc>
-    <lastmod>2023-04-15T17:32:28.472Z</lastmod>
+    <lastmod>2023-05-19T02:50:53.665Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/posts/immigrant-characteristics-canada/index.html</loc>
-    <lastmod>2023-04-15T17:32:30.736Z</lastmod>
+    <lastmod>2023-05-19T02:50:55.160Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/posts/gcp-rstudio-shiny-server/index.html</loc>
-    <lastmod>2023-04-15T17:32:31.155Z</lastmod>
+    <lastmod>2023-05-19T02:50:55.587Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/posts/index.html</loc>
-    <lastmod>2023-04-15T17:32:31.842Z</lastmod>
+    <lastmod>2023-05-19T02:50:57.414Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/posts/rstudio-project-templates/index.html</loc>
-    <lastmod>2023-04-15T17:32:34.858Z</lastmod>
+    <lastmod>2023-05-19T02:50:59.523Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/posts/gh-actions-data-science/index.html</loc>
-    <lastmod>2023-04-15T17:32:35.262Z</lastmod>
+    <lastmod>2023-05-19T02:50:59.922Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/posts/ds-iac/index.html</loc>
-    <lastmod>2023-04-15T17:32:35.642Z</lastmod>
+    <lastmod>2023-05-19T02:51:00.288Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/projects/index.html</loc>
-    <lastmod>2023-04-15T17:32:37.348Z</lastmod>
+    <lastmod>2023-05-19T02:51:01.980Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/index.html</loc>
-    <lastmod>2023-04-15T17:32:37.696Z</lastmod>
+    <lastmod>2023-05-19T02:51:02.331Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/recipes/index.html</loc>
-    <lastmod>2023-04-15T17:32:38.015Z</lastmod>
+    <lastmod>2023-05-19T02:51:02.648Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/recipes/salt-bread/index.html</loc>
-    <lastmod>2023-04-15T17:32:38.745Z</lastmod>
+    <lastmod>2023-05-19T02:51:04.388Z</lastmod>
   </url>
   <url>
     <loc>https://paeselhz.github.io/recipes/salt-bread/index-pt-br.html</loc>
-    <lastmod>2023-04-15T17:32:39.118Z</lastmod>
+    <lastmod>2023-05-19T02:51:04.733Z</lastmod>
+  </url>
+  <url>
+    <loc>https://paeselhz.github.io/recipes/cinnamon-roll/index.html</loc>
+    <lastmod>2023-05-19T02:51:05.078Z</lastmod>
+  </url>
+  <url>
+    <loc>https://paeselhz.github.io/recipes/cinnamon-roll/index-pt-br.html</loc>
+    <lastmod>2023-05-19T02:51:05.413Z</lastmod>
   </url>
 </urlset>

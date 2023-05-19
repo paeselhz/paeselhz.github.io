@@ -270,7 +270,7 @@
     "href": "recipes/index.html",
     "title": "Recipes",
     "section": "",
-    "text": "Sometimes I enjoy taking off my ML Engineer hat and like putting on the cook hat. Below are some experiments and recipes that I’ve done in the past.\n\nI try my best to develop the recipes in both English and Portuguese, however, any suggestions for changes are welcome.\n\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nSalt bread/Pão francês\n\n\n\nMar 17, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Sometimes I enjoy taking off my ML Engineer hat and like putting on the cook hat. Below are some experiments and recipes that I’ve done in the past.\n\nI try my best to develop the recipes in both English and Portuguese, however, any suggestions for changes are welcome.\n\n\n\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nCinnamon Roll\n\n\n\nApr 1, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSalt bread/Pão francês\n\n\n\nMar 17, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "recipes/salt-bread/index.html",
@@ -340,6 +340,90 @@
     "href": "recipes/salt-bread/index-pt-br.html#assar",
     "title": "Pão francês/Salt bread",
     "section": "Assar",
-    "text": "Assar\nPara assar o pão francês, o forno precisa ter uma quantidade alta de umidade, que é o que vai permitir o pão criar a casquinha de pão francês. Uma forma de aumentar a umidade do forno é utilizar uma forma com água fervendo e uma toalha dentro, permitindo que a água evapore dentro do forno.\n\nColoque o forno em 220ºC (430º F) e adicione a forma com água fervendo;\nInsira os pães franceses no forno;\nQuando atingir os primeiros 15 minutos, retire a forma com água fervendo;\nDeixe os pãoes por mais 10 a 15 minutos, tempo suficiente para a casca do pão endurecer e ficar com uma cor dourada;\n\nHappy baking!"
+    "text": "Assar\nPara assar o pão francês, o forno precisa ter uma quantidade alta de umidade, que é o que vai permitir o pão criar a casquinha de pão francês. Uma forma de aumentar a umidade do forno é utilizar uma forma com água fervendo e uma toalha dentro, permitindo que a água evapore dentro do forno.\n\nColoque o forno em 220ºC (430º F) e adicione a forma com água fervendo;\nInsira os pães franceses no forno;\nQuando atingir os primeiros 15 minutos, retire a forma com água fervendo;\nDeixe os pães por mais 10 a 15 minutos, tempo suficiente para a casca do pão endurecer e ficar com uma cor dourada;\n\nHappy baking!"
+  },
+  {
+    "objectID": "recipes/cinnamon-roll/index.html",
+    "href": "recipes/cinnamon-roll/index.html",
+    "title": "Cinnamon Roll",
+    "section": "",
+    "text": "Para a versão em português, clique aqui."
+  },
+  {
+    "objectID": "recipes/cinnamon-roll/index.html#sponge",
+    "href": "recipes/cinnamon-roll/index.html#sponge",
+    "title": "Cinnamon Roll",
+    "section": "Sponge",
+    "text": "Sponge\nThe role of a sponge in bread making is not to activate the yeast, but to give it the strength it will need to rise with the next additions of flour and other ingredients, this is why the process of creating the sponge feeds the yeast with water and flour.\n\nIngredients\n\n1 + 1/4 cups of flour\n1/2 cup of water\n5g of dry yeast (1 teaspoon)\n\n\n\nSteps\n\nMix the flour and the yeast with a fork, and slowly start adding the water;\nStart mixing to create a homogeneous mixture;\nAfter mixing it up, leave it to rest for 1/2 hour to 1 hour (the time will depend on the temperature of the room, to allow the sponge to grow effectively);"
+  },
+  {
+    "objectID": "recipes/cinnamon-roll/index.html#dough",
+    "href": "recipes/cinnamon-roll/index.html#dough",
+    "title": "Cinnamon Roll",
+    "section": "Dough",
+    "text": "Dough\n\nIngredients\n\n2 cups of flour\n1/2 cup of milk\n1/3 tablespoon of salt\n1/4 cup of sugar\n1 egg\n2 tablespoons of butter\n\nThe butter cannot be too cold, neither too hot, but it needs to be warm enough to be incorporated to the dough\n\n\n\n\nSteps\n\nMisturar primeiro os ingredientes sólidos (farinha, sal e açúcar), depois adicionar a esponja na mistura;\nAdicionar o ovo, e ir colocando o leite aos poucos (1/4 de xícara nesse primeiro momento), e ir incorporando os ingredientes, no final desse processo, já adicionar a manteiga;\nComeçar a bater a massa para misturar bem os ingredientes, aos poucos ir adicionando o leite restante;\n\nA quantidade restante de leite (1/4 que restou) talvez não seja totalmente necessária, visto que a absorção de água pela farinha varia de cada tipo de farinha, e inclusive o tamanho dos ovos utilizados pode impactar a umidade da massa, portanto, adicionar leite suficiente apenas para alcançar uma massa que não fique úmida em excesso, nem seca em excesso.\n\nComeçar o processo de sova da massa, o tempo varia de 15 a 20 minutos, dependendo se a sova está sendo feita à mão, ou com uma batedeira;\nApós a sova, reservar a massa por 1 hora;"
+  },
+  {
+    "objectID": "recipes/cinnamon-roll/index.html#recheio",
+    "href": "recipes/cinnamon-roll/index.html#recheio",
+    "title": "Cinnamon Roll",
+    "section": "Recheio",
+    "text": "Recheio\n\nIngredientes\n\n1/4 de xícara de açúcar\n1/4 de xícara de açúcar mascavo\n1/2 colher de sopa de canela"
+  },
+  {
+    "objectID": "recipes/cinnamon-roll/index.html#moldar-a-massa",
+    "href": "recipes/cinnamon-roll/index.html#moldar-a-massa",
+    "title": "Cinnamon Roll",
+    "section": "Moldar a massa",
+    "text": "Moldar a massa\n\nAbrir a massa em um retângulo de aproximadamente 35cm por 45 cm, a altura do retângulo vai determinar quantas voltas serão dadas na massa, enquanto o comprimento vai determinar a quantidade de Cinnamon Rolls que a receita renderá, essa medida de 35cm por 45cm resulta em 9 a 10 Cinnamon Rolls, com 3 voltas completas de recheio;\nEspalhar manteiga na massa, deixando uma borda sem manteiga para fechar a massa depois;\n\nÉ importante lembrar que a manteiga precisa estar em temperatura ambiente, para não afetar o crescimento da massa e facilitar o processo de espalhar a manteiga.\n\nAdicionar a mistura do recheio em toda área amanteigada da massa;\nComeçar a enrolar a massa, partindo do ponto com recheio em direção ao ponto que foi deixado sme recheio;\nCortar os Cinnamon Rolls com aproximadamente 3 cm de altura, e já posicionar na assadeira que será utilizada para assar;\nReservar a massa por mais 30 minutos;"
+  },
+  {
+    "objectID": "recipes/cinnamon-roll/index.html#assar",
+    "href": "recipes/cinnamon-roll/index.html#assar",
+    "title": "Cinnamon Roll",
+    "section": "Assar",
+    "text": "Assar\n\nColoque o forno em 180ºC (360º F)\nAdicione a assadeira com os Cinnamon Rolls\nDeixe assar entre 20 a 30 minutos, até eles ficarem com uma cor dourada;\n\nHappy baking!"
+  },
+  {
+    "objectID": "recipes/cinnamon-roll/index-pt-br.html",
+    "href": "recipes/cinnamon-roll/index-pt-br.html",
+    "title": "Cinnamon Roll",
+    "section": "",
+    "text": "For the english version, click here."
+  },
+  {
+    "objectID": "recipes/cinnamon-roll/index-pt-br.html#esponja",
+    "href": "recipes/cinnamon-roll/index-pt-br.html#esponja",
+    "title": "Cinnamon Roll",
+    "section": "Esponja",
+    "text": "Esponja\nA função da esponja não é ativar o fermento, mas sim dar força pra ele, por isso ela é com um água e farinha, tendo mais força de crescimento quando forem adicionados os demais ingredientes da receita.\n\nIngredientes\n\n1 + 1/4 xícara de farinha\n1/2 xícara de água\n5g de fermento biológico seco (1 colher de chá)\n\n\n\nPassos\n\nMisturar o fermento e a farinha em uma tigela, e aos poucos ir adicionando a água;\nMexer bem até formar uma pasta homogênea;\nDeixar descansando por 30 a 60 minutos (o tempo de crescimento da esponja vai variar com a temperatura);"
+  },
+  {
+    "objectID": "recipes/cinnamon-roll/index-pt-br.html#massa",
+    "href": "recipes/cinnamon-roll/index-pt-br.html#massa",
+    "title": "Cinnamon Roll",
+    "section": "Massa",
+    "text": "Massa\n\nIngredientes\n\n2 xícaras de farinha\n1/2 xícara de leite\n1/3 de colher de sopa de sal\n1/4 de xícara de açúcar\n1 ovo\n2 colheres de sopa de manteiga\n\nA manteiga precisa estar em um ponto que seja liquido o suficiente para incorporar na massa, mas não pode estar muito quente para não afetar o crescimento da massa.\n\n\n\n\nPassos\n\nMisturar primeiro os ingredientes sólidos (farinha, sal e açúcar), depois adicionar a esponja na mistura;\nAdicionar o ovo, e ir colocando o leite aos poucos (1/4 de xícara nesse primeiro momento), e ir incorporando os ingredientes, no final desse processo, já adicionar a manteiga;\nComeçar a bater a massa para misturar bem os ingredientes, aos poucos ir adicionando o leite restante;\n\nA quantidade restante de leite (1/4 que restou) talvez não seja totalmente necessária, visto que a absorção de água pela farinha varia de cada tipo de farinha, e inclusive o tamanho dos ovos utilizados pode impactar a umidade da massa, portanto, adicionar leite suficiente apenas para alcançar uma massa que não fique úmida em excesso, nem seca em excesso.\n\nComeçar o processo de sova da massa, o tempo varia de 15 a 20 minutos, dependendo se a sova está sendo feita à mão, ou com uma batedeira;\nApós a sova, reservar a massa por 1 hora;"
+  },
+  {
+    "objectID": "recipes/cinnamon-roll/index-pt-br.html#recheio",
+    "href": "recipes/cinnamon-roll/index-pt-br.html#recheio",
+    "title": "Cinnamon Roll",
+    "section": "Recheio",
+    "text": "Recheio\n\nIngredientes\n\n1/4 de xícara de açúcar\n1/4 de xícara de açúcar mascavo\n1/2 colher de sopa de canela"
+  },
+  {
+    "objectID": "recipes/cinnamon-roll/index-pt-br.html#moldar-a-massa",
+    "href": "recipes/cinnamon-roll/index-pt-br.html#moldar-a-massa",
+    "title": "Cinnamon Roll",
+    "section": "Moldar a massa",
+    "text": "Moldar a massa\n\nAbrir a massa em um retângulo de aproximadamente 35cm por 45 cm, a altura do retângulo vai determinar quantas voltas serão dadas na massa, enquanto o comprimento vai determinar a quantidade de Cinnamon Rolls que a receita renderá, essa medida de 35cm por 45cm resulta em 9 a 10 Cinnamon Rolls, com 3 voltas completas de recheio;\nEspalhar manteiga na massa, deixando uma borda sem manteiga para fechar a massa depois;\n\nÉ importante lembrar que a manteiga precisa estar em temperatura ambiente, para não afetar o crescimento da massa e facilitar o processo de espalhar a manteiga.\n\nAdicionar a mistura do recheio em toda área amanteigada da massa;\nComeçar a enrolar a massa, partindo do ponto com recheio em direção ao ponto que foi deixado sme recheio;\nCortar os Cinnamon Rolls com aproximadamente 3 cm de altura, e já posicionar na assadeira que será utilizada para assar;\nReservar a massa por mais 30 minutos;"
+  },
+  {
+    "objectID": "recipes/cinnamon-roll/index-pt-br.html#assar",
+    "href": "recipes/cinnamon-roll/index-pt-br.html#assar",
+    "title": "Cinnamon Roll",
+    "section": "Assar",
+    "text": "Assar\n\nColoque o forno em 180ºC (360º F)\nAdicione a assadeira com os Cinnamon Rolls\nDeixe assar entre 20 a 30 minutos, até eles ficarem com uma cor dourada;\n\nHappy baking!"
   }
 ]

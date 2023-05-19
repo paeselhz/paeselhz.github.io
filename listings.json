@@ -21,6 +21,7 @@
   {
     "listing": "/recipes/index.html",
     "items": [
+      "/recipes/cinnamon-roll/index.html",
       "/recipes/salt-bread/index.html"
     ]
   }
