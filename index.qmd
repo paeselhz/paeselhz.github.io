@@ -4,9 +4,10 @@ listing:
   id: posts-front-page
   contents: [posts/gh-actions-data-science/index.qmd, 
              posts/rstudio-project-templates/index.qmd,
-             posts/immigrant-characteristics-canada/index.qmd]
+             posts/immigrant-characteristics-canada/index.qmd,
+             posts/internal-migration-canada/index.qmd]
   fields: [date, title, subtitle, author, reading-time]
-  page-size: 3
+  page-size: 4
 page-layout: full
 toc: false
 ---
