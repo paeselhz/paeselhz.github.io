@@ -22,9 +22,10 @@ toc: false
 ::: {.g-col-12 .g-col-md-4}
 <div class="card mb-2">
 <div class="card-body">
-<h5 class="card-title">Density of candidates</h5>
-<p class="card-text">Application to allow exam candidates to view the density of candidates for the entrance exam at the Federal University of Rio Grande do Sul.</p>
-<a href="https://github.com/paeselhz/densidade_vestibular_ufrgs" class="btn btn-primary stretched-link">GitHub</a>
+<h5 class="card-title">Maple CPI</h5>
+<p class="card-text">Application to allow users to explore information related to Canadian Consumer Price Index and build custom visualizations.</p>
+<a target = "_blank" href="https://maplecpi.ca" class="btn btn-primary stretched-link">Live App</a>
+<a target = "_blank" href="https://github.com/paeselhz/maple_cpi" class="btn btn-primary stretched-link">GitHub</a>
 </div>
 </div>
 :::
@@ -34,7 +35,7 @@ toc: false
 <div class="card-body">
 <h5 class="card-title">Brazilian 2022 Elections</h5>
 <p class="card-text">Shiny application to view live voting count for the Brazilian 2022 presidential elections, second term.</p>
-<a href="https://github.com/paeselhz/apuracao_eleicoes_2022" class="btn btn-primary stretched-link">GitHub</a>
+<a target = "_blank" href="https://github.com/paeselhz/apuracao_eleicoes_2022" class="btn btn-primary stretched-link">GitHub</a>
 </div>
 </div>
 :::
@@ -44,7 +45,7 @@ toc: false
 <div class="card-body">
 <h5 class="card-title">Containerized Selenium</h5>
 <p class="card-text">This experiment allows the user to deploy a Selenium scraping inside a FastAPI deployment.</p>
-<a href="https://github.com/paeselhz/containarized_selenium_api" class="btn btn-primary stretched-link">GitHub</a>
+<a target = "_blank" href="https://github.com/paeselhz/containarized_selenium_api" class="btn btn-primary stretched-link">GitHub</a>
 </div>
 </div>
 :::
