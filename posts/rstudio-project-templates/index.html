@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <meta charset="utf-8">
 <meta name="generator" content="quarto-1.2.313">
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
 <meta name="author" content="Luis HZ Paese">
 <meta name="dcterms.date" content="2020-04-29">
+
 <title>Luis Paese - Using RStudio Project Templates to help the project standardization in data science teams</title>
 <style>
 code{white-space: pre-wrap;}
@@ -84,6 +87,7 @@ code span.vs { color: #4070a0; } /* VerbatimString */
 code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
 </style>
 
+
 <script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
 <script src="../../site_libs/clipboard/clipboard.min.js"></script>
 <script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
@@ -101,7 +105,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light"><script id="quarto-search-options" type="application/json">{
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
   "collapse-after": 3,
@@ -119,13 +124,18 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit"
   }
-}</script><script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6QP6SPK8HL"></script><script type="text/plain" cookie-consent="tracking">
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6QP6SPK8HL"></script>
+
+<script type="text/plain" cookie-consent="tracking">
 
 window.dataLayer = window.dataLayer || [];
 function gtag(){dataLayer.push(arguments);}
 gtag('js', new Date());
 gtag('config', 'G-6QP6SPK8HL', { 'anonymize_ip': true});
-</script><script type="text/javascript" charset="UTF-8">
+</script>
+
+<script type="text/javascript" charset="UTF-8">
 document.addEventListener('DOMContentLoaded', function () {
 cookieconsent.run({
   "notice_banner_type":"simple",
@@ -138,28 +148,43 @@ cookieconsent.run({
   "website_name":""
   });
 });
-</script><style>html{ scroll-behavior: smooth; }</style>
-<!--<base target="_blank">--><!-- Primary Meta Tags --><title>Luis Paese</title>
+</script> 
+  
+<style>html{ scroll-behavior: smooth; }</style>
+<!--<base target="_blank">-->
+<!-- Primary Meta Tags -->
+<title>Luis Paese</title>
 <meta name="title" content="Luis Paese">
 <meta name="description" content="Welcome to my website! Here I write about Data Science and MLOps.">
-<!-- Open Graph / Facebook --><meta property="og:type" content="website">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
 <meta property="og:url" content="https://paeselhz.github.io/">
 <meta property="og:title" content="Luis Paese - Using RStudio Project Templates to help the project standardization in data science teams">
 <meta property="og:description" content="Welcome to my website! Here I write about Data Science and MLOps.">
-<!--<meta property="og:image" content="">--><!-- Twitter --><meta property="twitter:card" content="summary_large_image">
+<!--<meta property="og:image" content="">-->
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:url" content="https://paeselhz.github.io/">
 <meta property="twitter:title" content="Luis Paese">
 <meta property="twitter:description" content="Welcome to my website! Here I write about Data Science and MLOps.">
-<!--<meta property="twitter:image" content="">--><link rel="stylesheet" href="../../styles.css">
+<!--<meta property="twitter:image" content="">-->
+
+
+<link rel="stylesheet" href="../../styles.css">
 <meta name="twitter:title" content="Luis Paese - Using RStudio Project Templates to help the project standardization in data science teams">
 <meta name="twitter:description" content="Improving team collaboration and project standardization in data science">
 <meta name="twitter:creator" content="@paeselhz">
 <meta name="twitter:card" content="summary_large_image">
 </head>
+
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top"><nav class="navbar navbar-expand-lg navbar-dark "><div class="navbar-container container-fluid">
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Luis Paese</span>
@@ -170,7 +195,7 @@ cookieconsent.run({
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
-<li class="nav-item">
+  <li class="nav-item">
     <a class="nav-link" href="../../posts/index.html">
  <span class="menu-text">Blog</span></a>
   </li>  
@@ -187,8 +212,8 @@ cookieconsent.run({
  <span class="menu-text">Recipes</span></a>
   </li>  
 </ul>
-<ul class="navbar-nav navbar-nav-scroll ms-auto">
-<li class="nav-item">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
     <a class="nav-link" href="../../navbar/about.html">
  <span class="menu-text">About Me</span></a>
   </li>  
@@ -212,26 +237,34 @@ cookieconsent.run({
  <span class="menu-text"></span></a>
   </li>  
 </ul>
-<div id="quarto-search" class="" title="Search"></div>
+              <div id="quarto-search" class="" title="Search"></div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
-    </nav></header><!-- content --><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active"><h2 id="toc-title">On this page</h2>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
    
   <ul>
-<li><a href="#the-story-behind-project-templates" id="toc-the-story-behind-project-templates" class="nav-link active" data-scroll-target="#the-story-behind-project-templates">The story behind project templates</a></li>
+  <li><a href="#the-story-behind-project-templates" id="toc-the-story-behind-project-templates" class="nav-link active" data-scroll-target="#the-story-behind-project-templates">The story behind project templates</a></li>
   <li><a href="#creating-a-new-r-package" id="toc-creating-a-new-r-package" class="nav-link" data-scroll-target="#creating-a-new-r-package">Creating a new R Package</a></li>
   <li><a href="#creating-a-function-that-will-create-a-template" id="toc-creating-a-function-that-will-create-a-template" class="nav-link" data-scroll-target="#creating-a-function-that-will-create-a-template">Creating a function that will create a template</a></li>
   <li><a href="#creating-the-.dcf-file" id="toc-creating-the-.dcf-file" class="nav-link" data-scroll-target="#creating-the-.dcf-file">Creating the <code>.dcf</code> file</a></li>
   <li><a href="#devtoolsdocument-devtoolsinstall" id="toc-devtoolsdocument-devtoolsinstall" class="nav-link" data-scroll-target="#devtoolsdocument-devtoolsinstall"><code>devtools::document() + devtools::install()</code></a></li>
   <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">Conclusion</a></li>
-  </ul></nav>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block default"><div class="quarto-title">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
 <h1 class="title">Using RStudio Project Templates to help the project standardization in data science teams</h1>
 <p class="subtitle lead">Improving team collaboration and project standardization in data science</p>
   <div class="quarto-categories">
@@ -265,15 +298,19 @@ cookieconsent.run({
   </div>
   
 
-</header><p>Many works in the data science realm rely solely upon the data scientist/analyst to guarantee the project standardization and code reproducibility; unfortunately, this becomes a source of confusion/disorganization since everybody (even on the same team) have different work strategies. To help ensure that teams share the same project standards, RStudio offers a sort of cookiecutter, where you can develop (in form of packages) many templates to be shared amongst users on the same team.</p>
+</header>
+
+<p>Many works in the data science realm rely solely upon the data scientist/analyst to guarantee the project standardization and code reproducibility; unfortunately, this becomes a source of confusion/disorganization since everybody (even on the same team) have different work strategies. To help ensure that teams share the same project standards, RStudio offers a sort of cookiecutter, where you can develop (in form of packages) many templates to be shared amongst users on the same team.</p>
 <p><img src="organizaiton_example.png" class="img-fluid"></p>
 <hr>
-<section id="the-story-behind-project-templates" class="level2"><h2 class="anchored" data-anchor-id="the-story-behind-project-templates">The story behind project templates</h2>
+<section id="the-story-behind-project-templates" class="level2">
+<h2 class="anchored" data-anchor-id="the-story-behind-project-templates">The story behind project templates</h2>
 <p>Recent studies aim to provide the society with methodologies that help users to better understand and organize their projects, data, and insights generated from this data. From <a href="https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining">CRISP-DM</a> going all the way to <a href="https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/overview">Team Data Science Process</a>, passing through <a href="https://en.wikipedia.org/wiki/Data_mining#Process">KDD</a>, we have experienced many ways to enhance our ability to work in teams, joining efforts to reach the desired insights faster, and with more reproducibility.</p>
 <p>Nonetheless, this process repeats itself for an infinite number of times, and the process of going back and re-developing an insight, or re-training a model, becomes a challenge because the code that was written long ago, is not easily reachable, and may be hard to understand the whole process that took to develop this project a few weeks/months/years ago.</p>
 <p>A few of the projects may look like this:</p>
 <div class="quarto-figure quarto-figure-center">
-<figure class="figure"><p><img src="messy_project_example.png" class="img-fluid figure-img"></p>
+<figure class="figure">
+<p><img src="messy_project_example.png" class="img-fluid figure-img"></p>
 <p></p><figcaption class="figure-caption">An image representing an unorganized way to store data and code</figcaption><p></p>
 </figure>
 </div>
@@ -292,58 +329,65 @@ cookieconsent.run({
  | -- markdown/
  -- .gitignore
  -- project_directory.Rproj</code></pre>
-<hr></section><section id="creating-a-new-r-package" class="level2"><h2 class="anchored" data-anchor-id="creating-a-new-r-package">Creating a new R Package</h2>
+<hr>
+</section>
+<section id="creating-a-new-r-package" class="level2">
+<h2 class="anchored" data-anchor-id="creating-a-new-r-package">Creating a new R Package</h2>
 <p>Project templates can be used to create new projects with a pre-specified structure, and one way to create these project templates is by creating an R package, which will allow the user to share its template with as many users as one desires.</p>
 <p>The process of R package creation (a fairly simple one) is pretty straightforward. <a href="http://r-pkgs.had.co.nz/">Hadley’s R Package Guide</a> covers many of the caveats involved in the process of creating a package. But since our package will contain only one function, it shouldn’t require the complexity involved in the development of a more robust package.</p>
 <p>Creating an R package from the project’s menu is easy, and should leave the user in front of a sample package, which will contain the R package structure, a <code>hello.R</code> function, and a few other files. The first step is to remove the <code>hello.R</code> file located at <code>R/</code> and the <code>hello.Rd</code> file located at <code>man/</code>. After that, we start with a clean package, and the first step is to create our function.</p>
-</section><section id="creating-a-function-that-will-create-a-template" class="level2"><h2 class="anchored" data-anchor-id="creating-a-function-that-will-create-a-template">Creating a function that will create a template</h2>
+</section>
+<section id="creating-a-function-that-will-create-a-template" class="level2">
+<h2 class="anchored" data-anchor-id="creating-a-function-that-will-create-a-template">Creating a function that will create a template</h2>
 <p>To “create the template” we have to instruct how R will deal with it, and how it will behave when we source this function in the New Project menu. So this function takes one mandatory argument, and the other is additional arguments that can help the logic of your Project Creation tool. The first argument will always be the path of this New Project since it’ll create a .RProj file as well, it’ll be hosted in a new folder. The other arguments of this function are passed as <code>...</code> and they can be called within the code with their names, or by assigning them to <code>dots &lt;- list(...)</code>.</p>
 <p>Our function will do a few tasks, to display a few of the features that can be embedded in the project creation templates. It will:</p>
 <ul>
-<li>Create a README.md file with <code><a href="https://rdrr.io/r/base/writeLines.html">writeLines()</a></code>;</li>
+<li>Create a README.md file with <code>writeLines()</code>;</li>
 <li>If a checkbox is selected, it will create a <code>.gitignore</code> file;</li>
 <li>Create a folder with a specific name given a selected input from the user;</li>
 </ul>
 <p>To create a function, and ensure that <code>roxygen2</code> can interpret it, and export the function that should be exported by the final package, we’ll write the function according to the syntax below.</p>
 <div class="cell">
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r code-with-copy"><code class="sourceCode R"><span><span class="co">#' This package will create a function called create_project()</span></span>
-<span><span class="co">#'</span></span>
-<span><span class="co">#' It's callback is at: inst/rstudio/templates/project/create_project.dcf</span></span>
-<span><span class="co">#'</span></span>
-<span><span class="co">#' @export</span></span>
-<span><span class="va">create_project</span> <span class="op">&lt;-</span></span>
-<span><span class="kw">function</span><span class="op">(</span><span class="va">path</span>, <span class="va">...</span><span class="op">)</span> <span class="op">{</span></span>
-<span><span class="co"># Create the project path given the name chosen by the user:</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/files2.html">dir.create</a></span><span class="op">(</span><span class="va">path</span>, recursive <span class="op">=</span> <span class="cn">TRUE</span>, showWarnings <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span>
-<span><span class="co"># Change the working directory to the recently created folder:</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/getwd.html">setwd</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/file.path.html">file.path</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/getwd.html">getwd</a></span><span class="op">(</span><span class="op">)</span>, <span class="va">path</span><span class="op">)</span><span class="op">)</span></span>
-<span><span class="co"># Collect the list of inputs in a list to be called later:</span></span>
-<span><span class="va">dots</span> <span class="op">&lt;-</span> <span class="fu"><a href="https://rdrr.io/r/base/list.html">list</a></span><span class="op">(</span><span class="va">...</span><span class="op">)</span></span>
-<span><span class="co"># In the project template we've added 2 choices for the user:</span></span>
-<span><span class="co"># * One allows them to select if the project will have a .gitignore file</span></span>
-<span><span class="co"># * The other will create a folder, given a select input from the user</span></span>
-<span><span class="co"># Check .gitignore argument</span></span>
-<span><span class="kw">if</span><span class="op">(</span><span class="va">dots</span><span class="op">[[</span><span class="st">"createGitignore"</span><span class="op">]</span><span class="op">]</span><span class="op">)</span> <span class="op">{</span></span>
-<span><span class="va">git_ignores</span> <span class="op">&lt;-</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span></span>
-<span><span class="st">'.Rhistory'</span>,</span>
-<span><span class="st">'.Rapp.history'</span>,</span>
-<span><span class="st">'.RData'</span>,</span>
-<span><span class="st">'.Ruserdata'</span>,</span>
-<span><span class="st">'.Rproj.user/'</span>,</span>
-<span><span class="st">'.Renviron'</span></span>
-<span><span class="op">)</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/writeLines.html">writeLines</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/paste.html">paste</a></span><span class="op">(</span><span class="va">git_ignores</span>, sep <span class="op">=</span> <span class="st">'\n'</span><span class="op">)</span>, <span class="st">'.gitignore'</span><span class="op">)</span></span>
-<span><span class="op">}</span></span>
-<span><span class="co"># Check selected folder</span></span>
-<span><span class="kw">if</span><span class="op">(</span><span class="va">dots</span><span class="op">[[</span><span class="st">"folder"</span><span class="op">]</span><span class="op">]</span> <span class="op">==</span> <span class="st">"Production"</span><span class="op">)</span><span class="op">{</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/files2.html">dir.create</a></span><span class="op">(</span><span class="st">"production"</span>, recursive <span class="op">=</span> <span class="cn">TRUE</span>, showWarnings <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span>
-<span><span class="op">}</span> <span class="kw">else</span> <span class="op">{</span></span>
-<span><span class="fu"><a href="https://rdrr.io/r/base/files2.html">dir.create</a></span><span class="op">(</span><span class="st">"development"</span>, recursive <span class="op">=</span> <span class="cn">TRUE</span>, showWarnings <span class="op">=</span> <span class="cn">FALSE</span><span class="op">)</span></span>
-<span><span class="op">}</span></span>
-<span><span class="op">}</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co">#' This package will create a function called create_project()</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#' It's callback is at: inst/rstudio/templates/project/create_project.dcf</span></span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="co">#'</span></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a><span class="co">#' @export</span></span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>create_project <span class="ot">&lt;-</span></span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a><span class="cf">function</span>(path, ...) {</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Create the project path given the name chosen by the user:</span></span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="fu">dir.create</span>(path, <span class="at">recursive =</span> <span class="cn">TRUE</span>, <span class="at">showWarnings =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Change the working directory to the recently created folder:</span></span>
+<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a><span class="fu">setwd</span>(<span class="fu">file.path</span>(<span class="fu">getwd</span>(), path))</span>
+<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Collect the list of inputs in a list to be called later:</span></span>
+<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>dots <span class="ot">&lt;-</span> <span class="fu">list</span>(...)</span>
+<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a><span class="co"># In the project template we've added 2 choices for the user:</span></span>
+<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a><span class="co"># * One allows them to select if the project will have a .gitignore file</span></span>
+<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a><span class="co"># * The other will create a folder, given a select input from the user</span></span>
+<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Check .gitignore argument</span></span>
+<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(dots[[<span class="st">"createGitignore"</span>]]) {</span>
+<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>git_ignores <span class="ot">&lt;-</span></span>
+<span id="cb2-20"><a href="#cb2-20" aria-hidden="true" tabindex="-1"></a><span class="fu">c</span>(</span>
+<span id="cb2-21"><a href="#cb2-21" aria-hidden="true" tabindex="-1"></a><span class="st">'.Rhistory'</span>,</span>
+<span id="cb2-22"><a href="#cb2-22" aria-hidden="true" tabindex="-1"></a><span class="st">'.Rapp.history'</span>,</span>
+<span id="cb2-23"><a href="#cb2-23" aria-hidden="true" tabindex="-1"></a><span class="st">'.RData'</span>,</span>
+<span id="cb2-24"><a href="#cb2-24" aria-hidden="true" tabindex="-1"></a><span class="st">'.Ruserdata'</span>,</span>
+<span id="cb2-25"><a href="#cb2-25" aria-hidden="true" tabindex="-1"></a><span class="st">'.Rproj.user/'</span>,</span>
+<span id="cb2-26"><a href="#cb2-26" aria-hidden="true" tabindex="-1"></a><span class="st">'.Renviron'</span></span>
+<span id="cb2-27"><a href="#cb2-27" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb2-28"><a href="#cb2-28" aria-hidden="true" tabindex="-1"></a><span class="fu">writeLines</span>(<span class="fu">paste</span>(git_ignores, <span class="at">sep =</span> <span class="st">'</span><span class="sc">\n</span><span class="st">'</span>), <span class="st">'.gitignore'</span>)</span>
+<span id="cb2-29"><a href="#cb2-29" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-30"><a href="#cb2-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Check selected folder</span></span>
+<span id="cb2-31"><a href="#cb2-31" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span>(dots[[<span class="st">"folder"</span>]] <span class="sc">==</span> <span class="st">"Production"</span>){</span>
+<span id="cb2-32"><a href="#cb2-32" aria-hidden="true" tabindex="-1"></a><span class="fu">dir.create</span>(<span class="st">"production"</span>, <span class="at">recursive =</span> <span class="cn">TRUE</span>, <span class="at">showWarnings =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb2-33"><a href="#cb2-33" aria-hidden="true" tabindex="-1"></a>} <span class="cf">else</span> {</span>
+<span id="cb2-34"><a href="#cb2-34" aria-hidden="true" tabindex="-1"></a><span class="fu">dir.create</span>(<span class="st">"development"</span>, <span class="at">recursive =</span> <span class="cn">TRUE</span>, <span class="at">showWarnings =</span> <span class="cn">FALSE</span>)</span>
+<span id="cb2-35"><a href="#cb2-35" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb2-36"><a href="#cb2-36" aria-hidden="true" tabindex="-1"></a>}</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section><section id="creating-the-.dcf-file" class="level2"><h2 class="anchored" data-anchor-id="creating-the-.dcf-file">Creating the <code>.dcf</code> file</h2>
+</section>
+<section id="creating-the-.dcf-file" class="level2">
+<h2 class="anchored" data-anchor-id="creating-the-.dcf-file">Creating the <code>.dcf</code> file</h2>
 <p>With the function file created, the next step is to create the <code>.dcf</code> file. This file is responsible to create the boxes which the user will interact with. Along with the path that the user will type, you can create as many checkboxes/text inputs/select inputs as you wish to grant customization to the end-user. For our project, we’ll create a checkbox, so the user can decide whether to create the <code>.gitignore</code> file and a select input, so the user can define the scope of the project (development or production);</p>
 <p>This solution (development or production) was just created for illustration purposes, it does not reflect any actual state of a project.</p>
 <p>The <code>.dcf</code> file must be created within the package in the folder <code>inst/rstudio/templates/project</code> with the name of your choice, and it should follow the syntax below:</p>
@@ -366,16 +410,24 @@ Widget: CheckboxInput
 Label: Create .gitignore
 Default: On
 Position: right</code></pre>
-</section><section id="devtoolsdocument-devtoolsinstall" class="level2"><h2 class="anchored" data-anchor-id="devtoolsdocument-devtoolsinstall"><code>devtools::document() + devtools::install()</code></h2>
-<p>Now that our package structure is created, we can use the <code><a href="https://devtools.r-lib.org/reference/document.html">devtools::document()</a></code> function to create its documentation pages. Even though this package is mainly developed to be an add-in for RStudio, it’s a good practice to document the package, before installing it in R, since it will search for any dependencies and packages that are needed for your project to work.</p>
+</section>
+<section id="devtoolsdocument-devtoolsinstall" class="level2">
+<h2 class="anchored" data-anchor-id="devtoolsdocument-devtoolsinstall"><code>devtools::document() + devtools::install()</code></h2>
+<p>Now that our package structure is created, we can use the <code>devtools::document()</code> function to create its documentation pages. Even though this package is mainly developed to be an add-in for RStudio, it’s a good practice to document the package, before installing it in R, since it will search for any dependencies and packages that are needed for your project to work.</p>
 <p>By running the d<code>evtools::install()</code> function, within our package, we are going to install it and make it available in any other R Session from now on. This should be enough to make the add-in accessible by RStudio as a New Project Template.</p>
 <p>After that, your project template should be available in RStudio’s list of projects. If you want to know more about different features to tweak your project template and add more customizability, please check the <a href="https://rstudio.github.io/rstudio-extensions/rstudio_project_templates.html">RStudio Project Template</a> page.</p>
-<hr></section><section id="conclusion" class="level2"><h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
+<hr>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">Conclusion</h2>
 <p>Given the recent developments in data science and its integration with software engineering techniques, the need to standardize projects within teams comes handy to ensure that everybody can understand, and be understood by their pairs. This allows faster debugging of projects and mitigates the drawbacks of legacy code that is incomprehensible by people in the same teams. Of course, this feature alone will not help to document code, or standardize the way to write R scripts (please refer to <a href="https://style.tidyverse.org/">The tidyverse style guide</a>), but it is a tool that will help users to create patterns regarding project management.</p>
 <p>Check out the <a href="https://github.com/paeselhz/rstudioProjectTemplate">GitHub page</a> where the code used in this article is hosted, and if you wanna try out this example, clone the repository, or install it in R by running: devtools::install_github(‘paeselhz/rstudioProjectTemplate’).</p>
 
 
-</section></main><!-- /main --><script id="quarto-html-after-body" type="application/javascript">
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
@@ -523,11 +575,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
-<footer class="footer"><div class="nav-footer">
+<footer class="footer">
+  <div class="nav-footer">
     <div class="nav-footer-left">Developed by LHZ Paese. License: <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC BY-SA 2.0</a>.<br>Powered by <a href="https://quarto.org">Quarto</a></div>   
       <div class="nav-footer-center">
         <ul class="footer-items list-unstyled">
-<li class="nav-item compact">
+    <li class="nav-item compact">
     <a class="nav-link" href="https://github.com/paeselhz/">
       <i class="bi bi-github" role="img">
 </i> 
@@ -546,9 +599,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </a>
   </li>  
 </ul>
-<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+      <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
   </div>
 </footer>
+
 
 
 <script src="../../site_libs/quarto-html/zenscroll-min.js"></script>
